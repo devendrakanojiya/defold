@@ -22,7 +22,7 @@
     },
     {
       "id": "emthree",
-      "stars": 24,
+      "stars": 25,
       "timestamp": 1567163518.0
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "id": "lowrezjamtemplate",
-      "stars": 14,
+      "stars": 15,
       "timestamp": 1567163518.0
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "id": "matchanovel",
-      "stars": 21,
+      "stars": 22,
       "timestamp": 1661154333.0
     },
     {
@@ -52,13 +52,18 @@
     },
     {
       "id": "slasherprototype",
-      "stars": 105,
+      "stars": 106,
       "timestamp": 1567163518.0
     },
     {
       "id": "textadventuretemplate",
-      "stars": 6,
+      "stars": 7,
       "timestamp": 1696259367.0
+    },
+    {
+      "id": "visual-novel-template-ink",
+      "stars": 3,
+      "timestamp": 1697041187.0
     },
     {
       "id": "warbattlesassetpack",

@@ -129,7 +129,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 44,
+        "stars": 45,
         "tags": [
             "AI",
             "Math"
@@ -242,7 +242,7 @@
             "iOS",
             "macOS"
         ],
-        "stars": 5,
+        "stars": 6,
         "tags": [],
         "timestamp": 1567163518.0
     },
@@ -333,7 +333,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 1,
+        "stars": 2,
         "tags": [
             "Tools"
         ],
@@ -537,7 +537,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 9,
+        "stars": 10,
         "tags": [
             "Input"
         ],
@@ -553,7 +553,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 20,
+        "stars": 21,
         "tags": [
             "GUI",
             "System"
@@ -633,7 +633,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 3,
+        "stars": 4,
         "tags": [
             "Physics",
             "Rendering",
@@ -651,7 +651,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 14,
+        "stars": 15,
         "tags": [
             "Math"
         ],
@@ -700,7 +700,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 24,
+        "stars": 25,
         "tags": [
             "Physics"
         ],
@@ -771,7 +771,7 @@
     {
         "id": "defold-ink",
         "platforms": [],
-        "stars": 3,
+        "stars": 4,
         "tags": [
             "Game mechanic"
         ],
@@ -930,7 +930,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 86,
+        "stars": 88,
         "tags": [
             "Input"
         ],
@@ -960,7 +960,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 19,
+        "stars": 21,
         "tags": [
             "Physics",
             "Tools"
@@ -994,7 +994,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 74,
+        "stars": 75,
         "tags": [
             "System"
         ],
@@ -1057,7 +1057,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 47,
+        "stars": 48,
         "tags": [
             "System"
         ],
@@ -1137,7 +1137,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 8,
+        "stars": 9,
         "tags": [
             "System"
         ],
@@ -1194,7 +1194,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 20,
+        "stars": 21,
         "tags": [
             "Game mechanic",
             "Math",
@@ -1244,7 +1244,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 13,
+        "stars": 14,
         "tags": [
             "Shaders"
         ],
@@ -1276,7 +1276,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 171,
+        "stars": 173,
         "tags": [
             "GUI",
             "Input",
@@ -1363,7 +1363,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 24,
+        "stars": 25,
         "tags": [
             "Template projects",
             "Game mechanic"
@@ -1631,7 +1631,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 114,
+        "stars": 115,
         "tags": [
             "GUI"
         ],
@@ -1711,7 +1711,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 173,
+        "stars": 175,
         "tags": [
             "Tools"
         ],
@@ -1727,7 +1727,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 30,
+        "stars": 32,
         "tags": [
             "Rendering",
             "Shaders"
@@ -1744,7 +1744,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 47,
+        "stars": 48,
         "tags": [
             "Rendering",
             "Shaders"
@@ -1914,7 +1914,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 14,
+        "stars": 15,
         "tags": [
             "Template projects"
         ],
@@ -2043,7 +2043,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 22,
         "tags": [
             "GUI",
             "Game mechanic",
@@ -2127,7 +2127,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 117,
+        "stars": 118,
         "tags": [
             "GUI"
         ],
@@ -2227,7 +2227,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 29,
+        "stars": 30,
         "tags": [
             "Camera",
             "Input",
@@ -2245,7 +2245,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 108,
+        "stars": 109,
         "tags": [
             "Camera"
         ],
@@ -2327,7 +2327,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 23,
         "tags": [
             "System"
         ],
@@ -2567,7 +2567,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 58,
+        "stars": 59,
         "tags": [
             "Fonts",
             "GUI"
@@ -2584,7 +2584,7 @@
             "macOS",
             "HTML5"
         ],
-        "stars": 24,
+        "stars": 25,
         "tags": [
             "Animation",
             "Tools",
@@ -2613,7 +2613,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 104,
+        "stars": 105,
         "tags": [
             "Art assets",
             "Camera",
@@ -2717,7 +2717,7 @@
         "platforms": [
             "iOS"
         ],
-        "stars": 105,
+        "stars": 106,
         "tags": [
             "Animation",
             "Art assets",
@@ -2749,7 +2749,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 31,
+        "stars": 32,
         "tags": [
             "System",
             "Platform",
@@ -2812,7 +2812,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 6,
+        "stars": 7,
         "tags": [
             "Template projects"
         ],
@@ -2825,7 +2825,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 9969,
+        "stars": 9993,
         "tags": [
             "Tools"
         ],
@@ -2841,7 +2841,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 23,
         "tags": [
             "Animation"
         ],
@@ -2882,7 +2882,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 28,
+        "stars": 29,
         "tags": [
             "Editor",
             "Editor script",
@@ -2928,6 +2928,22 @@
         "timestamp": 1567163518.0
     },
     {
+        "id": "ts-defold",
+        "platforms": [
+            "iOS",
+            "Android",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 33,
+        "tags": [
+            "Tools"
+        ],
+        "timestamp": 1697450168.0
+    },
+    {
         "id": "uptime",
         "platforms": [
             "iOS",
@@ -2965,6 +2981,22 @@
             "Video"
         ],
         "timestamp": 1567163518.0
+    },
+    {
+        "id": "visual-novel-template-ink",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 3,
+        "tags": [
+            "Template projects"
+        ],
+        "timestamp": 1697041187.0
     },
     {
         "id": "vitahealthenergy",
@@ -3008,7 +3040,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 122,
+        "stars": 126,
         "tags": [
             "Editor",
             "Tools",
@@ -3142,7 +3174,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 41,
+        "stars": 42,
         "tags": [
             "Ads",
             "Monetization",

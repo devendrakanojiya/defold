@@ -33,7 +33,7 @@
             },
             {
                 "id": "steamworks",
-                "stars": 31,
+                "stars": 32,
                 "timestamp": 1567163518.0
             }
         ],
@@ -129,7 +129,7 @@
             },
             {
                 "id": "yagames",
-                "stars": 41,
+                "stars": 42,
                 "timestamp": 1605369273.0
             }
         ],
@@ -140,7 +140,7 @@
         "assets": [
             {
                 "id": "apathfinding",
-                "stars": 44,
+                "stars": 45,
                 "timestamp": 1567163518.0
             },
             {
@@ -252,7 +252,7 @@
             },
             {
                 "id": "operator",
-                "stars": 29,
+                "stars": 30,
                 "timestamp": 1656236297.0
             },
             {
@@ -262,17 +262,17 @@
             },
             {
                 "id": "rive",
-                "stars": 24,
+                "stars": 25,
                 "timestamp": 1681228502.0
             },
             {
                 "id": "slasherprototype",
-                "stars": 105,
+                "stars": 106,
                 "timestamp": 1567163518.0
             },
             {
                 "id": "tilemapanimator",
-                "stars": 21,
+                "stars": 23,
                 "timestamp": 1583703856.0
             },
             {
@@ -318,12 +318,12 @@
             },
             {
                 "id": "scene3d",
-                "stars": 104,
+                "stars": 105,
                 "timestamp": 1644886794.0
             },
             {
                 "id": "slasherprototype",
-                "stars": 105,
+                "stars": 106,
                 "timestamp": 1567163518.0
             },
             {
@@ -395,12 +395,12 @@
         "assets": [
             {
                 "id": "operator",
-                "stars": 29,
+                "stars": 30,
                 "timestamp": 1656236297.0
             },
             {
                 "id": "orthographic",
-                "stars": 108,
+                "stars": 109,
                 "timestamp": 1567163518.0
             },
             {
@@ -410,7 +410,7 @@
             },
             {
                 "id": "scene3d",
-                "stars": 104,
+                "stars": 105,
                 "timestamp": 1644886794.0
             }
         ],
@@ -457,12 +457,12 @@
             },
             {
                 "id": "trenchbroom",
-                "stars": 28,
+                "stars": 29,
                 "timestamp": 1658219139.0
             },
             {
                 "id": "vs-code-ide",
-                "stars": 122,
+                "stars": 126,
                 "timestamp": 1632134871.0
             }
         ],
@@ -493,7 +493,7 @@
             },
             {
                 "id": "trenchbroom",
-                "stars": 28,
+                "stars": 29,
                 "timestamp": 1658219139.0
             }
         ],
@@ -529,7 +529,7 @@
             },
             {
                 "id": "richtext",
-                "stars": 58,
+                "stars": 59,
                 "timestamp": 1567163518.0
             }
         ],
@@ -545,7 +545,7 @@
             },
             {
                 "id": "defold-ink",
-                "stars": 3,
+                "stars": 4,
                 "timestamp": 1678195224.0
             },
             {
@@ -570,12 +570,12 @@
             },
             {
                 "id": "dicebag",
-                "stars": 20,
+                "stars": 21,
                 "timestamp": 1609787857.0
             },
             {
                 "id": "emthree",
-                "stars": 24,
+                "stars": 25,
                 "timestamp": 1567163518.0
             },
             {
@@ -590,7 +590,7 @@
             },
             {
                 "id": "matchanovel",
-                "stars": 21,
+                "stars": 22,
                 "timestamp": 1661154333.0
             },
             {
@@ -641,7 +641,7 @@
         "assets": [
             {
                 "id": "defglot",
-                "stars": 20,
+                "stars": 21,
                 "timestamp": 1567163518.0
             },
             {
@@ -686,7 +686,7 @@
             },
             {
                 "id": "druid",
-                "stars": 171,
+                "stars": 173,
                 "timestamp": 1590661297.0
             },
             {
@@ -696,17 +696,17 @@
             },
             {
                 "id": "gooey",
-                "stars": 114,
+                "stars": 115,
                 "timestamp": 1567163518.0
             },
             {
                 "id": "matchanovel",
-                "stars": 21,
+                "stars": 22,
                 "timestamp": 1661154333.0
             },
             {
                 "id": "monarch",
-                "stars": 117,
+                "stars": 118,
                 "timestamp": 1567163518.0
             },
             {
@@ -736,7 +736,7 @@
             },
             {
                 "id": "richtext",
-                "stars": 58,
+                "stars": 59,
                 "timestamp": 1567163518.0
             },
             {
@@ -767,7 +767,7 @@
         "assets": [
             {
                 "id": "defdiags",
-                "stars": 9,
+                "stars": 10,
                 "timestamp": 1567163518.0
             },
             {
@@ -787,7 +787,7 @@
             },
             {
                 "id": "defoldinput",
-                "stars": 86,
+                "stars": 88,
                 "timestamp": 1567163518.0
             },
             {
@@ -802,7 +802,7 @@
             },
             {
                 "id": "druid",
-                "stars": 171,
+                "stars": 173,
                 "timestamp": 1590661297.0
             },
             {
@@ -817,7 +817,7 @@
             },
             {
                 "id": "operator",
-                "stars": 29,
+                "stars": 30,
                 "timestamp": 1656236297.0
             },
             {
@@ -832,7 +832,7 @@
             },
             {
                 "id": "slasherprototype",
-                "stars": 105,
+                "stars": 106,
                 "timestamp": 1567163518.0
             }
         ],
@@ -853,7 +853,7 @@
             },
             {
                 "id": "rive",
-                "stars": 24,
+                "stars": 25,
                 "timestamp": 1681228502.0
             }
         ],
@@ -864,7 +864,7 @@
         "assets": [
             {
                 "id": "apathfinding",
-                "stars": 44,
+                "stars": 45,
                 "timestamp": 1567163518.0
             },
             {
@@ -884,7 +884,7 @@
             },
             {
                 "id": "defmath",
-                "stars": 14,
+                "stars": 15,
                 "timestamp": 1567163518.0
             },
             {
@@ -894,7 +894,7 @@
             },
             {
                 "id": "dicebag",
-                "stars": 20,
+                "stars": 21,
                 "timestamp": 1609787857.0
             },
             {
@@ -1030,7 +1030,7 @@
             },
             {
                 "id": "yagames",
-                "stars": 41,
+                "stars": 42,
                 "timestamp": 1605369273.0
             }
         ],
@@ -1077,12 +1077,12 @@
             },
             {
                 "id": "defluid",
-                "stars": 3,
+                "stars": 4,
                 "timestamp": 1567163518.0
             },
             {
                 "id": "defold-box2d",
-                "stars": 24,
+                "stars": 25,
                 "timestamp": 1624836819.0
             },
             {
@@ -1092,7 +1092,7 @@
             },
             {
                 "id": "defoldpolygoneditor",
-                "stars": 19,
+                "stars": 21,
                 "timestamp": 1567163518.0
             },
             {
@@ -1107,12 +1107,12 @@
             },
             {
                 "id": "scene3d",
-                "stars": 104,
+                "stars": 105,
                 "timestamp": 1644886794.0
             },
             {
                 "id": "trenchbroom",
-                "stars": 28,
+                "stars": 29,
                 "timestamp": 1658219139.0
             },
             {
@@ -1198,7 +1198,7 @@
             },
             {
                 "id": "steamworks",
-                "stars": 31,
+                "stars": 32,
                 "timestamp": 1567163518.0
             },
             {
@@ -1208,7 +1208,7 @@
             },
             {
                 "id": "yagames",
-                "stars": 41,
+                "stars": 42,
                 "timestamp": 1605369273.0
             }
         ],
@@ -1229,7 +1229,7 @@
             },
             {
                 "id": "defluid",
-                "stars": 3,
+                "stars": 4,
                 "timestamp": 1567163518.0
             },
             {
@@ -1244,12 +1244,12 @@
             },
             {
                 "id": "horrifold",
-                "stars": 30,
+                "stars": 32,
                 "timestamp": 1641913634.0
             },
             {
                 "id": "hypertrails",
-                "stars": 47,
+                "stars": 48,
                 "timestamp": 1567163518.0
             },
             {
@@ -1269,7 +1269,7 @@
             },
             {
                 "id": "scene3d",
-                "stars": 104,
+                "stars": 105,
                 "timestamp": 1644886794.0
             },
             {
@@ -1316,12 +1316,12 @@
             },
             {
                 "id": "defluid",
-                "stars": 3,
+                "stars": 4,
                 "timestamp": 1567163518.0
             },
             {
                 "id": "dissolve-fx",
-                "stars": 13,
+                "stars": 14,
                 "timestamp": 1694942836.0
             },
             {
@@ -1331,12 +1331,12 @@
             },
             {
                 "id": "horrifold",
-                "stars": 30,
+                "stars": 32,
                 "timestamp": 1641913634.0
             },
             {
                 "id": "hypertrails",
-                "stars": 47,
+                "stars": 48,
                 "timestamp": 1567163518.0
             },
             {
@@ -1346,7 +1346,7 @@
             },
             {
                 "id": "scene3d",
-                "stars": 104,
+                "stars": 105,
                 "timestamp": 1644886794.0
             },
             {
@@ -1417,7 +1417,7 @@
             },
             {
                 "id": "steamworks",
-                "stars": 31,
+                "stars": 32,
                 "timestamp": 1567163518.0
             }
         ],
@@ -1483,7 +1483,7 @@
             },
             {
                 "id": "defglot",
-                "stars": 20,
+                "stars": 21,
                 "timestamp": 1567163518.0
             },
             {
@@ -1503,7 +1503,7 @@
             },
             {
                 "id": "defos",
-                "stars": 74,
+                "stars": 75,
                 "timestamp": 1567163518.0
             },
             {
@@ -1518,7 +1518,7 @@
             },
             {
                 "id": "defsave",
-                "stars": 47,
+                "stars": 48,
                 "timestamp": 1567163518.0
             },
             {
@@ -1528,7 +1528,7 @@
             },
             {
                 "id": "defunico",
-                "stars": 8,
+                "stars": 9,
                 "timestamp": 1567163518.0
             },
             {
@@ -1543,7 +1543,7 @@
             },
             {
                 "id": "druid",
-                "stars": 171,
+                "stars": 173,
                 "timestamp": 1590661297.0
             },
             {
@@ -1613,7 +1613,7 @@
             },
             {
                 "id": "pigeon",
-                "stars": 21,
+                "stars": 23,
                 "timestamp": 1683062630.0
             },
             {
@@ -1653,7 +1653,7 @@
             },
             {
                 "id": "steamworks",
-                "stars": 31,
+                "stars": 32,
                 "timestamp": 1567163518.0
             },
             {
@@ -1704,7 +1704,7 @@
             },
             {
                 "id": "emthree",
-                "stars": 24,
+                "stars": 25,
                 "timestamp": 1567163518.0
             },
             {
@@ -1714,7 +1714,7 @@
             },
             {
                 "id": "lowrezjamtemplate",
-                "stars": 14,
+                "stars": 15,
                 "timestamp": 1567163518.0
             },
             {
@@ -1724,7 +1724,7 @@
             },
             {
                 "id": "matchanovel",
-                "stars": 21,
+                "stars": 22,
                 "timestamp": 1661154333.0
             },
             {
@@ -1734,13 +1734,18 @@
             },
             {
                 "id": "slasherprototype",
-                "stars": 105,
+                "stars": 106,
                 "timestamp": 1567163518.0
             },
             {
                 "id": "textadventuretemplate",
-                "stars": 6,
+                "stars": 7,
                 "timestamp": 1696259367.0
+            },
+            {
+                "id": "visual-novel-template-ink",
+                "stars": 3,
+                "timestamp": 1697041187.0
             },
             {
                 "id": "warbattlesassetpack",
@@ -1760,7 +1765,7 @@
             },
             {
                 "id": "colorpicker",
-                "stars": 1,
+                "stars": 2,
                 "timestamp": 1567163518.0
             },
             {
@@ -1795,7 +1800,7 @@
             },
             {
                 "id": "defoldpolygoneditor",
-                "stars": 19,
+                "stars": 21,
                 "timestamp": 1567163518.0
             },
             {
@@ -1810,7 +1815,7 @@
             },
             {
                 "id": "haxesupport",
-                "stars": 173,
+                "stars": 175,
                 "timestamp": 1567163518.0
             },
             {
@@ -1830,12 +1835,12 @@
             },
             {
                 "id": "rive",
-                "stars": 24,
+                "stars": 25,
                 "timestamp": 1681228502.0
             },
             {
                 "id": "tiled",
-                "stars": 9969,
+                "stars": 9993,
                 "timestamp": 1573623163.0
             },
             {
@@ -1845,12 +1850,17 @@
             },
             {
                 "id": "trenchbroom",
-                "stars": 28,
+                "stars": 29,
                 "timestamp": 1658219139.0
             },
             {
+                "id": "ts-defold",
+                "stars": 33,
+                "timestamp": 1697450168.0
+            },
+            {
                 "id": "vs-code-ide",
-                "stars": 122,
+                "stars": 126,
                 "timestamp": 1632134871.0
             }
         ],
@@ -1922,7 +1932,7 @@
             },
             {
                 "id": "dicebag",
-                "stars": 20,
+                "stars": 21,
                 "timestamp": 1609787857.0
             },
             {
@@ -1937,7 +1947,7 @@
             },
             {
                 "id": "matchanovel",
-                "stars": 21,
+                "stars": 22,
                 "timestamp": 1661154333.0
             },
             {
@@ -1962,12 +1972,12 @@
             },
             {
                 "id": "trenchbroom",
-                "stars": 28,
+                "stars": 29,
                 "timestamp": 1658219139.0
             },
             {
                 "id": "vs-code-ide",
-                "stars": 122,
+                "stars": 126,
                 "timestamp": 1632134871.0
             },
             {
