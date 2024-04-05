@@ -2,11 +2,11 @@
     "assets": [
         {
             "id": "blip",
-            "stars": 16
+            "stars": 17
         },
         {
             "id": "clipboard",
-            "stars": 10
+            "stars": 11
         },
         {
             "id": "dashdocsetfordefold",
@@ -14,35 +14,35 @@
         },
         {
             "id": "defcon",
-            "stars": 41
+            "stars": 44
         },
         {
             "id": "defoldinput",
-            "stars": 88
+            "stars": 108
         },
         {
             "id": "defoldpng",
-            "stars": 16
+            "stars": 17
         },
         {
             "id": "defpro",
-            "stars": 20
+            "stars": 21
         },
         {
             "id": "deftest",
-            "stars": 37
+            "stars": 39
         },
         {
             "id": "emthree",
-            "stars": 25
+            "stars": 29
         },
         {
             "id": "gooey",
-            "stars": 115
+            "stars": 138
         },
         {
             "id": "googleanalytics",
-            "stars": 18
+            "stars": 20
         },
         {
             "id": "gyro",
@@ -54,7 +54,7 @@
         },
         {
             "id": "lowrezjamtemplate",
-            "stars": 15
+            "stars": 19
         },
         {
             "id": "luafilesystemlfs",
@@ -66,31 +66,31 @@
         },
         {
             "id": "monarch",
-            "stars": 118
+            "stars": 145
         },
         {
             "id": "orthographic",
-            "stars": 109
+            "stars": 133
         },
         {
             "id": "platypus",
-            "stars": 34
+            "stars": 44
         },
         {
             "id": "richtext",
-            "stars": 59
+            "stars": 64
         },
         {
             "id": "screenshot",
-            "stars": 25
+            "stars": 28
         },
         {
             "id": "share",
-            "stars": 20
+            "stars": 21
         },
         {
             "id": "steamworks",
-            "stars": 32
+            "stars": 35
         }
     ],
     "id": "6c8581f7da8da7a5c9bb6ffe85f56420",

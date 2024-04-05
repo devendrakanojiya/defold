@@ -53,8 +53,12 @@ Orthographic Zoom
 
 ## 使用摄像机
 
-通过发送 `acquire_camera_focus` 消息, 激活摄像机并填充视口同时向渲染脚本提供映射矩阵:
+通过调用 `camera.acquire_focus` 函数或者向组件发送 `acquire_camera_focus` 消息, 激活摄像机并填充视口同时向渲染脚本提供映射矩阵:
 
+```lua
+camera.acquire_focus("#camera")
+```
+或者
 ```lua
 msg.post("#camera", "acquire_camera_focus")
 ```
@@ -151,9 +155,19 @@ end
 `orthographic_zoom`
 : 平视摄像机缩放 (`number`).
 
+`aspect_ratio`
+: 自从 Defold 1.4.8 加入. 视口宽高比. 在计算透视摄像机投射时使用. (`number`).
+
+`view`
+: 自从 Defold 1.4.8 加入. 摄像机视口矩阵值. 只读. (`matrix4`).
+
+`projection`
+: 自从 Defold 1.4.8 加入. 摄像机投射矩阵值. 只读. (`matrix4`).
+
 
 ## 第三方摄像机解决方案
 
-有一个第三方库实现了诸如游戏对象跟随, 屏幕抖动, 屏幕与世界坐标转换等摄像机功能. 可以在 Defold 社区资源库找到:
+社区制作了一些摄像机插件实现了屏幕抖动, 对象跟随, 屏幕与世界坐标转换等摄像机功能. 可以在 Defold 资源大厅找到:
 
 - [Ortographic camera](https://defold.com/assets/orthographic/) (仅 2D) 由 Björn Ritzl 开发.
+- [Defold Rendy](https://defold.com/assets/defold-rendy/) (2D 和 3D) 由 Klayton Kowalski 开发.

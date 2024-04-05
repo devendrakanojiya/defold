@@ -2,39 +2,25 @@
 layout: manual
 language: en
 github: https://github.com/defold/doc
-title: Defold development for PlayStation®4
-brief: This manual describes how to get PlayStation®4 access
+title: Defold development for PlayStation®4 and PlayStation®5
+brief: This manual describes how to get PlayStation®4 and PlayStation®5 access
 ---
 
-# Development for PlayStation®4 console 
-Due to licensing restrictions, access to Defold versions with support for development on PS4™ is not included in the standard version of Defold. In order to get access to versions of Defold with PS4™ development support you need to be registered as a licensed PS4™ game developer.
+# Game development for PlayStation®4 and PlayStation®5 consoles 
+Due to licensing restrictions, access to Defold versions with support for development on PS4 and PS5 is not included in the standard version of Defold. In order to get access to versions of Defold with PS4 and PS5 game development support you need to be registered as a licensed PS4 and PS5 game developer respectively.
 
-<div class='sidenote' markdown='1'>
-Defold currently only provides support for the PS4™ console. Games made for PlayStation®4 will also run on PlayStation®5 in compatibility mode. Official PS5 console support will be available later this year.
-</div>
+## Registering as developer for PS4 and PS5 game development
+You can register as a game developer for PS4™ and PS5™ game development from the [PlayStation™ Partners page](https://register.playstation.net/partnership)
 
-## Registering as developer for PS4 development
-You can register as a game developer for PS4 development from the [PlayStation™ Partners page](https://register.playstation.net/partnership)
+When you have been approved by Sony you will get access to the Playstation 5 DevNet and/or Playstation 4 DevNet. Navigate to Development > Tools & Middleware > Tools & Middleware directory > Defold. Click the ‘Confirm Status’ button.
 
-When you have been approved by Sony you will get access to the Playstation®4 DevNet. Navigate to Development > Tools & Middleware > Tools & Middleware directory > Defold. Click the 'Confirm Status' button.
+## PS4™ and PS5™ access in Defold 
+Once we have received confirmation of your status as a licensed developer for PS4™ and PS5™ we will provide you with access to the following:
 
-## PS4 access in Defold 
-Once we have received confirmation of your status as a licensed developer for PS4 we offer two tiers of access in Defold:
-
-* Standard access - PS4™ extension, build tools and support.
-* Source code access - PS4™ extension, build tools and support AND source code access to the PS4 specific parts of the Defold engine.
-
-## Standard access 
-Access to versions of Defold with PS4™ development support is provided free of charge to all developers licensed on PS4™. As a licensed developer we will provide you with access to:
-
-* Extension with PS4™ specific API integrations.
-* Command line tool with support for building to the PS4™ console.
-* Forum where you are able to get PS4™ specific support.
-
-## Source code access 
-Source code access is only provided to approved PS5 developers with [active monthly community donation](/community-donations/) for an amount which gives you source code access.
-
-![](../images/nintendo-switch/register-defold.png)
+* Source code access to the PS4™ and PS5™ extension with console specific API integrations.
+* Source code access to the PS4™ and PS5™ enabled version of the Defold game engine will only be provided to PS5™ licensed game developers. Note that the source code access is not required to build games, but we provide access in case you wish to make source contributions to the engine core.
+* [Command line tool](/manuals/bob) with support for bundling to the PS4™ and PS5™ platforms. Bundling from the Defold editor is not supported.
+* Forum where you are able to get PS4™ and PS5™ specific support.
 
 ## FAQ
 {% include shared/en/consoles-faq.md %}

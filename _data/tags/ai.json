@@ -2,17 +2,17 @@
   "assets": [
     {
       "id": "apathfinding",
-      "stars": 45,
+      "stars": 57,
       "timestamp": 1567163518.0
     },
     {
       "id": "defarmy",
-      "stars": 30,
+      "stars": 32,
       "timestamp": 1572852494.0
     },
     {
       "id": "defgraph",
-      "stars": 27,
+      "stars": 29,
       "timestamp": 1570973353.0
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "id": "moku",
-      "stars": 28,
+      "stars": 31,
       "timestamp": 1567163518.0
     },
     {

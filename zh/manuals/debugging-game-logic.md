@@ -34,7 +34,7 @@ msg.post("@render:", "draw_line", { start_point = start_p, end_point = end_p, co
 调试绘制与普通的渲染处于同一个渲染管线之上.
 
 * `"draw_line"` 实际是是使用渲染脚本的 `render.draw_debug3d()` 函数进行绘制的.
-* `"draw_text"` 使用的是 "/builtins/fonts/system_font.font" 字体和 "/builtins/fonts/system_font.material" 材质.
+* `"draw_text"` 使用的是 `/builtins/fonts/debug/always_on_top.font` 字体和 `/builtins/fonts/debug/always_on_top_font.material` 材质.
 * `"draw_debug_text"` 与 `"draw_text"` 类似, 只是可以自定义文字颜色.
 
 注意一般调试信息都需要实时更新所以把它们放在 `update()` 函数中是个好主意.
@@ -89,6 +89,13 @@ Step Out
   ![add breakpoint](/manuals/images/debugging/add_breakpoint.png)
 
   设置/清除断点, 可以在代码编辑器里行号右边右键点击. 还可以从菜单中选择 <kbd>Edit ▸ Toggle Breakpoint</kbd>.
+
+设置条件断点
+: 可以设置需要计算条件为真才触发的断点. 条件可以读取随着代码执行当前行的本地变量.
+
+  ![edit breakpoint](/manuals/images/debugging/edit_breakpoint.png)
+
+  要编辑断电条件, 右键点击代码编辑器行号的右边的列, 或者从菜单栏点选 <kbd>Edit ▸ Edit Breakpoint</kbd>.
 
 执行Lua表达式
 : 调试器停在断点上时, 可以直接使用包含有当前上下文的 Lua 运行时. 在控制台底部输入表达式后按 <kbd>回车键</kbd> 来运行:

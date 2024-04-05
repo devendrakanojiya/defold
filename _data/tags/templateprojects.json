@@ -2,12 +2,12 @@
   "assets": [
     {
       "id": "alienworld",
-      "stars": 133,
+      "stars": 144,
       "timestamp": 1567163518.0
     },
     {
       "id": "defarc",
-      "stars": 21,
+      "stars": 29,
       "timestamp": 1651654429.0
     },
     {
@@ -17,32 +17,32 @@
     },
     {
       "id": "defork",
-      "stars": 20,
+      "stars": 23,
       "timestamp": 1567163518.0
     },
     {
       "id": "emthree",
-      "stars": 25,
+      "stars": 29,
       "timestamp": 1567163518.0
     },
     {
       "id": "endlessrunner",
-      "stars": 133,
+      "stars": 144,
       "timestamp": 1567163518.0
     },
     {
       "id": "lowrezjamtemplate",
-      "stars": 15,
+      "stars": 19,
       "timestamp": 1567163518.0
     },
     {
       "id": "magiclinker",
-      "stars": 133,
+      "stars": 144,
       "timestamp": 1567163518.0
     },
     {
       "id": "matchanovel",
-      "stars": 22,
+      "stars": 28,
       "timestamp": 1661154333.0
     },
     {
@@ -51,23 +51,43 @@
       "timestamp": 1567163518.0
     },
     {
+      "id": "rustore-appupdate",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-billing",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-push",
+      "stars": 0,
+      "timestamp": 1711731297.0
+    },
+    {
+      "id": "rustore-remoteconfig",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
       "id": "slasherprototype",
-      "stars": 106,
+      "stars": 120,
       "timestamp": 1567163518.0
     },
     {
       "id": "textadventuretemplate",
-      "stars": 7,
+      "stars": 10,
       "timestamp": 1696259367.0
     },
     {
       "id": "visual-novel-template-ink",
-      "stars": 3,
+      "stars": 6,
       "timestamp": 1697041187.0
     },
     {
       "id": "warbattlesassetpack",
-      "stars": 133,
+      "stars": 144,
       "timestamp": 1567163518.0
     }
   ],

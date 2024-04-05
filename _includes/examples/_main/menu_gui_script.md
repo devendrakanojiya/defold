@@ -101,17 +101,18 @@ end
 function init(self)
 	self.index = {}
 	self.index["basics"] = { "message_passing", "parent_child", "z_order" }
-	self.index["factory"] = { "basic", "bullets" }
+	self.index["factory"] = { "basic", "bullets", "dynamic" }
 	self.index["movement"] = { "simple_move", "follow", "move_to", "move_forward", "movement_speed", "look_at" }
 	self.index["physics"] = { "dynamic", "kinematic", "raycast", "trigger", "hinge_joint", "pendulum", "knockback"}
 	self.index["animation"] = { "spinner", "flipbook", "chained_tween", "basic_tween", "spine", "cursor", "easing" }
 	self.index["gui"] = { "button", "stencil", "load_texture", "progress", "pointer_over", "color", "slice9" }
 	self.index["input"] = { "move", "text", "down_duration", "mouse_and_touch" }
+	self.index["material"] = { "vertexcolor" }
 	self.index["particles"] = { "particlefx", "modifiers", "fire_and_smoke" }
 	self.index["sound"] = { "music", "fade_in_out", "panning" }
-	self.index["render"] = { "camera" }
+	self.index["render"] = { "camera", "screen_to_world" }
 	self.index["debug"] = { "physics", "profile" }
-	self.index["collection"] = { "proxy", "splash" }
+	self.index["collection"] = { "proxy", "splash", "timestep" }
 	self.index["sprite"] = { "size", "tint", "flip", "bunnymark" }
 	self.index["file"] = { "sys_save_load" }
 	self.index["tilemap"] = { "collisions", "get_set_tile" }

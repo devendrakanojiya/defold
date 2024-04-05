@@ -2,11 +2,11 @@
     "assets": [
         {
             "id": "dissolve-fx",
-            "stars": 14
+            "stars": 20
         },
         {
             "id": "hypertrails",
-            "stars": 48
+            "stars": 61
         },
         {
             "id": "playable-ads",
@@ -18,11 +18,11 @@
         },
         {
             "id": "reszip",
-            "stars": 26
+            "stars": 30
         },
         {
             "id": "scene3d",
-            "stars": 105
+            "stars": 124
         },
         {
             "id": "sentinel",
@@ -30,23 +30,23 @@
         },
         {
             "id": "sharpsprite",
-            "stars": 31
-        },
-        {
-            "id": "splitmix64",
-            "stars": 14
-        },
-        {
-            "id": "webgl-memory",
-            "stars": 10
-        },
-        {
-            "id": "yagames",
             "stars": 42
         },
         {
+            "id": "splitmix64",
+            "stars": 16
+        },
+        {
+            "id": "webgl-memory",
+            "stars": 11
+        },
+        {
+            "id": "yagames",
+            "stars": 54
+        },
+        {
             "id": "yametrica",
-            "stars": 10
+            "stars": 13
         }
     ],
     "id": "a0bfc7430b840873f242085ed47277c8",

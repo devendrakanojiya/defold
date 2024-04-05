@@ -2,11 +2,11 @@
     "assets": [
         {
             "id": "defarc",
-            "stars": 21
+            "stars": 29
         },
         {
             "id": "defluid",
-            "stars": 4
+            "stars": 6
         },
         {
             "id": "defold-polyglot",
@@ -14,11 +14,11 @@
         },
         {
             "id": "defork",
-            "stars": 20
+            "stars": 23
         },
         {
             "id": "pigeon",
-            "stars": 23
+            "stars": 40
         }
     ],
     "id": "d54cdc4bc377adc6a3233368cc304107",

@@ -6,7 +6,7 @@
     "github_url": "https://github.com/defold/extension-review",
     "id": "review",
     "images": {
-        "hero": "",
+        "hero": "defreview-hero.jpg",
         "thumb": "defreview-thumb.jpg"
     },
     "library_url": "https://github.com/defold/extension-review/archive/master.zip",
@@ -17,10 +17,10 @@
         "Android"
     ],
     "project_url": "https://github.com/defold/extension-review",
-    "stars": 12,
+    "stars": 13,
     "tags": [
         "System"
     ],
     "timestamp": 1606150194.0,
-    "website_url": "https://www.defold.com/extension-review"
+    "website_url": "https://defold.com/extension-review"
 }

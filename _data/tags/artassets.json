@@ -1,23 +1,18 @@
 {
   "assets": [
     {
-      "id": "3dmodels-cc0",
-      "stars": 0,
-      "timestamp": 1656236297.0
-    },
-    {
       "id": "alienworld",
-      "stars": 133,
+      "stars": 144,
       "timestamp": 1567163518.0
     },
     {
       "id": "defold-colors",
-      "stars": 13,
+      "stars": 17,
       "timestamp": 1595414277.0
     },
     {
       "id": "endlessrunner",
-      "stars": 133,
+      "stars": 144,
       "timestamp": 1567163518.0
     },
     {
@@ -26,23 +21,33 @@
       "timestamp": 1586074653.0
     },
     {
+      "id": "perspectiveparallax",
+      "stars": 6,
+      "timestamp": 1567163518.0
+    },
+    {
       "id": "scene3d",
-      "stars": 105,
+      "stars": 124,
       "timestamp": 1644886794.0
     },
     {
       "id": "slasherprototype",
-      "stars": 106,
+      "stars": 120,
       "timestamp": 1567163518.0
     },
     {
+      "id": "spritefusion",
+      "stars": 0,
+      "timestamp": 1709811792.0
+    },
+    {
       "id": "trickortreat",
-      "stars": 1,
+      "stars": 2,
       "timestamp": 1635696264.0
     },
     {
       "id": "warbattlesassetpack",
-      "stars": 133,
+      "stars": 144,
       "timestamp": 1567163518.0
     }
   ],

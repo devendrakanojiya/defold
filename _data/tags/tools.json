@@ -7,7 +7,7 @@
     },
     {
       "id": "colorpicker",
-      "stars": 2,
+      "stars": 3,
       "timestamp": 1567163518.0
     },
     {
@@ -17,12 +17,17 @@
     },
     {
       "id": "defarc",
-      "stars": 21,
+      "stars": 29,
       "timestamp": 1651654429.0
     },
     {
       "id": "defcon",
-      "stars": 41,
+      "stars": 44,
+      "timestamp": 1567163518.0
+    },
+    {
+      "id": "defold-log",
+      "stars": 17,
       "timestamp": 1567163518.0
     },
     {
@@ -42,27 +47,32 @@
     },
     {
       "id": "defoldpolygoneditor",
-      "stars": 21,
+      "stars": 26,
       "timestamp": 1567163518.0
     },
     {
       "id": "defpro",
-      "stars": 20,
+      "stars": 21,
       "timestamp": 1567163518.0
     },
     {
       "id": "deftest",
-      "stars": 37,
+      "stars": 39,
       "timestamp": 1567163518.0
     },
     {
+      "id": "deployer",
+      "stars": 32,
+      "timestamp": 1590661297.0
+    },
+    {
       "id": "haxesupport",
-      "stars": 175,
+      "stars": 186,
       "timestamp": 1567163518.0
     },
     {
       "id": "panthera",
-      "stars": 47,
+      "stars": 62,
       "timestamp": 1669586732.0
     },
     {
@@ -77,12 +87,17 @@
     },
     {
       "id": "rive",
-      "stars": 25,
+      "stars": 31,
       "timestamp": 1681228502.0
     },
     {
+      "id": "spritefusion",
+      "stars": 0,
+      "timestamp": 1709811792.0
+    },
+    {
       "id": "tiled",
-      "stars": 9993,
+      "stars": 10559,
       "timestamp": 1573623163.0
     },
     {
@@ -92,17 +107,17 @@
     },
     {
       "id": "trenchbroom",
-      "stars": 29,
+      "stars": 38,
       "timestamp": 1658219139.0
     },
     {
       "id": "ts-defold",
-      "stars": 33,
+      "stars": 44,
       "timestamp": 1697450168.0
     },
     {
       "id": "vs-code-ide",
-      "stars": 126,
+      "stars": 152,
       "timestamp": 1632134871.0
     }
   ],

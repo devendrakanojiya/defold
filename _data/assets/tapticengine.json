@@ -6,7 +6,7 @@
     "github_url": "https://github.com/MaratGilyazov/def_taptic_engine",
     "id": "tapticengine",
     "images": {
-        "hero": "",
+        "hero": "tapticengine-hero.png",
         "thumb": "tapticengine-thumb.png"
     },
     "library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip",
@@ -21,7 +21,7 @@
         "HTML5"
     ],
     "project_url": "https://github.com/MaratGilyazov/def_taptic_engine",
-    "stars": 9,
+    "stars": 10,
     "tags": [
         "Device control",
         "System"

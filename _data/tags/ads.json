@@ -12,7 +12,7 @@
     },
     {
       "id": "admob-defold",
-      "stars": 33,
+      "stars": 36,
       "timestamp": 1621434870.0
     },
     {
@@ -21,24 +21,29 @@
       "timestamp": 1661425561.0
     },
     {
+      "id": "applovin-max",
+      "stars": 9,
+      "timestamp": 1710236546.0
+    },
+    {
+      "id": "cas-ai",
+      "stars": 1,
+      "timestamp": 1708183481.0
+    },
+    {
       "id": "coolmathgames-sdk",
-      "stars": 3,
+      "stars": 4,
       "timestamp": 1693564471.0
     },
     {
       "id": "defvideoads",
-      "stars": 38,
+      "stars": 39,
       "timestamp": 1567163518.0
     },
     {
       "id": "defvungle",
       "stars": 1,
       "timestamp": 1603270938.0
-    },
-    {
-      "id": "enhance",
-      "stars": 14,
-      "timestamp": 1567163518.0
     },
     {
       "id": "facebookads",
@@ -52,7 +57,7 @@
     },
     {
       "id": "gamedistribution",
-      "stars": 9,
+      "stars": 10,
       "timestamp": 1610203640.0
     },
     {
@@ -67,7 +72,7 @@
     },
     {
       "id": "ironsource-official",
-      "stars": 8,
+      "stars": 10,
       "timestamp": 1693565233.0
     },
     {
@@ -77,17 +82,17 @@
     },
     {
       "id": "poki",
-      "stars": 14,
+      "stars": 20,
       "timestamp": 1607991286.0
     },
     {
       "id": "wortal",
-      "stars": 0,
+      "stars": 1,
       "timestamp": 1664495798.0
     },
     {
       "id": "yagames",
-      "stars": 42,
+      "stars": 54,
       "timestamp": 1605369273.0
     }
   ],

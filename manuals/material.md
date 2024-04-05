@@ -95,8 +95,20 @@ Value
 Custom attributes can also be used to trim memory footprint on both CPU and GPU by reconfiguring the streams to use a smaller data type, or a different element count.
 </div>
 
-<div class='important' markdown='1'>
-Custom attributes are available starting from Defold 1.4.8!
+Similar to user defined shader constants, you can also update vertex attributes in runtime by calling go.get, go.set and go.animate:
+
+![Custom material attribute](../images/materials/set_custom_attribute.png)
+
+```lua
+go.set("#sprite", "tint", vmath.vector4(1,0,0,1))
+
+go.animate("#sprite", "tint", go.PLAYBACK_LOOP_PINGPONG, vmath.vector4(1,0,0,1), go.EASING_LINEAR, 2)
+```
+
+There are some caveats to updating the vertex attributes however, wether or not a component can use the value depends on the semantic type of the attribute. For example, a sprite component supports the `SEMANTIC_TYPE_POSITION` so if you update an attribute that has this semantic type, the component will ignore the overridden value since the semantic type dictates that the data should always be produced by the sprites position.
+
+<div class='sidenote' markdown='1'>
+Setting custom vertex data in runtime is currently only supported for sprite components.
 </div>
 
 ## Vertex and fragment constants
@@ -116,7 +128,10 @@ CONSTANT_TYPE_VIEWPROJ
 : A matrix with the view and projection matrices already multiplied.
 
 CONSTANT_TYPE_WORLDVIEW
-: A matrix with the world and view projection matrices already multiplied.
+: A matrix with the world and view matrices already multiplied.
+
+CONSTANT_TYPE_WORLDVIEWPROJ
+: A matrix with the world, view and projection matrices already multiplied.
 
 CONSTANT_TYPE_NORMAL
 : A matrix to compute normal orientation. The world transform might include non-uniform scaling, which breaks the orthogonality of the combined world-view transform. The normal matrix is used to avoid issues with the direction when transforming normals. (The normal matrix is the transpose inverse of the world-view matrix).
@@ -201,6 +216,7 @@ Wrap U/W
 Filter Min/Mag
 : The filtering for magnification and minification. Nearest filtering requires less computation than linear interpolation, but can result in aliasing artifacts. Linear interpolation often provides smoother results:
 
+  - `Default` uses the default filter option specified in the `game.project` file under `Graphics`  as `Default Texture Min Filter` and `Default Texture Mag Filter` .
   - `FILTER_MODE_NEAREST` uses the texel with coordinates nearest the center of the pixel.
   - `FILTER_MODE_LINEAR` sets a weighted linear average of the 2x2 array of texels that lie nearest to the center of the pixel.
   - `FILTER_MODE_NEAREST_MIPMAP_NEAREST` chooses the nearest texel value within an individual mipmap.

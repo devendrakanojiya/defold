@@ -2,11 +2,15 @@
     "assets": [
         {
             "id": "adjustsdk",
-            "stars": 3
+            "stars": 2
         },
         {
             "id": "admob",
             "stars": 18
+        },
+        {
+            "id": "cas-ai",
+            "stars": 1
         },
         {
             "id": "extensiondirectories",
@@ -18,11 +22,19 @@
         },
         {
             "id": "nativetext",
-            "stars": 8
+            "stars": 11
         },
         {
             "id": "openal",
-            "stars": 19
+            "stars": 18
+        },
+        {
+            "id": "pcg-random",
+            "stars": 4
+        },
+        {
+            "id": "sfmt",
+            "stars": 3
         }
     ],
     "id": "1c2d3ba1c59d40a609cc44f1ca42b65c",

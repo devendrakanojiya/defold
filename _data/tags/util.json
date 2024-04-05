@@ -2,7 +2,7 @@
   "assets": [
     {
       "id": "colorlib",
-      "stars": 5,
+      "stars": 7,
       "timestamp": 1585512372.0
     },
     {
@@ -12,13 +12,18 @@
     },
     {
       "id": "defarc",
-      "stars": 21,
+      "stars": 29,
       "timestamp": 1651654429.0
     },
     {
       "id": "defold-colors",
-      "stars": 13,
+      "stars": 17,
       "timestamp": 1595414277.0
+    },
+    {
+      "id": "defold-log",
+      "stars": 17,
+      "timestamp": 1567163518.0
     },
     {
       "id": "defold-mobilehtml5-typing",
@@ -27,8 +32,13 @@
     },
     {
       "id": "defold-parser",
-      "stars": 6,
+      "stars": 9,
       "timestamp": 1688946347.0
+    },
+    {
+      "id": "defold-persist",
+      "stars": 9,
+      "timestamp": 1706227474.0
     },
     {
       "id": "defold-polyglot",
@@ -36,18 +46,33 @@
       "timestamp": 1629934163.0
     },
     {
-      "id": "deftable",
-      "stars": 5,
+      "id": "defold-tweener",
+      "stars": 11,
       "timestamp": 1567163518.0
     },
     {
+      "id": "deftable",
+      "stars": 8,
+      "timestamp": 1567163518.0
+    },
+    {
+      "id": "deployer",
+      "stars": 32,
+      "timestamp": 1590661297.0
+    },
+    {
       "id": "dicebag",
-      "stars": 21,
+      "stars": 23,
       "timestamp": 1609787857.0
     },
     {
+      "id": "i18n-defold",
+      "stars": 1,
+      "timestamp": 1706082227.0
+    },
+    {
       "id": "lpeg",
-      "stars": 5,
+      "stars": 6,
       "timestamp": 1593006246.0
     },
     {
@@ -57,12 +82,12 @@
     },
     {
       "id": "matchanovel",
-      "stars": 22,
+      "stars": 28,
       "timestamp": 1661154333.0
     },
     {
       "id": "panthera",
-      "stars": 47,
+      "stars": 62,
       "timestamp": 1669586732.0
     },
     {
@@ -72,8 +97,28 @@
     },
     {
       "id": "reszip",
-      "stars": 26,
+      "stars": 30,
       "timestamp": 1641913634.0
+    },
+    {
+      "id": "rustore-appupdate",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-billing",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-push",
+      "stars": 0,
+      "timestamp": 1711731297.0
+    },
+    {
+      "id": "rustore-remoteconfig",
+      "stars": 0,
+      "timestamp": 1710241701.0
     },
     {
       "id": "sentinel",
@@ -81,18 +126,23 @@
       "timestamp": 1642463035.0
     },
     {
+      "id": "spritefusion",
+      "stars": 0,
+      "timestamp": 1709811792.0
+    },
+    {
       "id": "trenchbroom",
-      "stars": 29,
+      "stars": 38,
       "timestamp": 1658219139.0
     },
     {
       "id": "vs-code-ide",
-      "stars": 126,
+      "stars": 152,
       "timestamp": 1632134871.0
     },
     {
       "id": "webgl-memory",
-      "stars": 10,
+      "stars": 11,
       "timestamp": 1694823026.0
     }
   ],

@@ -17,19 +17,6 @@
         "timestamp": 1567163518.0
     },
     {
-        "id": "3dmodels-cc0",
-        "platforms": [
-            "macOS",
-            "Windows",
-            "Linux"
-        ],
-        "stars": 0,
-        "tags": [
-            "Art assets"
-        ],
-        "timestamp": 1656236297.0
-    },
-    {
         "id": "adinfo",
         "platforms": [
             "Android",
@@ -48,7 +35,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 3,
+        "stars": 2,
         "tags": [
             "Analytics"
         ],
@@ -77,7 +64,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 33,
+        "stars": 36,
         "tags": [
             "Monetization",
             "Ads",
@@ -111,7 +98,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 133,
+        "stars": 144,
         "tags": [
             "Animation",
             "Art assets",
@@ -129,7 +116,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 45,
+        "stars": 57,
         "tags": [
             "AI",
             "Math"
@@ -162,6 +149,19 @@
             "System"
         ],
         "timestamp": 1583388631.0
+    },
+    {
+        "id": "applovin-max",
+        "platforms": [
+            "iOS",
+            "Android"
+        ],
+        "stars": 9,
+        "tags": [
+            "Ads",
+            "Monetization"
+        ],
+        "timestamp": 1710236546.0
     },
     {
         "id": "batterystatus",
@@ -202,7 +202,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 16,
+        "stars": 17,
         "tags": [
             "Audio"
         ],
@@ -218,7 +218,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 3,
+        "stars": 4,
         "tags": [
             "Rendering",
             "Shaders"
@@ -230,7 +230,7 @@
         "platforms": [
             "Android"
         ],
-        "stars": 4,
+        "stars": 5,
         "tags": [
             "Monetization"
         ],
@@ -242,9 +242,21 @@
             "iOS",
             "macOS"
         ],
-        "stars": 6,
+        "stars": 8,
         "tags": [],
         "timestamp": 1567163518.0
+    },
+    {
+        "id": "cas-ai",
+        "platforms": [
+            "Android"
+        ],
+        "stars": 1,
+        "tags": [
+            "Ads",
+            "Monetization"
+        ],
+        "timestamp": 1708183481.0
     },
     {
         "id": "chipsounds",
@@ -256,7 +268,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 10,
+        "stars": 12,
         "tags": [
             "Audio"
         ],
@@ -272,7 +284,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 11,
+        "stars": 12,
         "tags": [
             "System"
         ],
@@ -286,7 +298,7 @@
             "macOS",
             "Windows"
         ],
-        "stars": 20,
+        "stars": 21,
         "tags": [
             "System"
         ],
@@ -301,7 +313,7 @@
             "macOS",
             "Windows"
         ],
-        "stars": 10,
+        "stars": 11,
         "tags": [
             "System"
         ],
@@ -317,7 +329,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 5,
+        "stars": 7,
         "tags": [
             "Util"
         ],
@@ -333,7 +345,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 2,
+        "stars": 3,
         "tags": [
             "Tools"
         ],
@@ -349,7 +361,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 54,
+        "stars": 57,
         "tags": [
             "Network",
             "Platform"
@@ -378,12 +390,28 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 3,
+        "stars": 4,
         "tags": [
             "Ads",
             "Monetization"
         ],
         "timestamp": 1693564471.0
+    },
+    {
+        "id": "crowd-runner-defold",
+        "platforms": [
+            "iOS",
+            "Android",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 11,
+        "tags": [
+            "Sample project"
+        ],
+        "timestamp": 1567163518.0
     },
     {
         "id": "daabbcc",
@@ -395,7 +423,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 45,
+        "stars": 49,
         "tags": [
             "Physics"
         ],
@@ -427,7 +455,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 22,
+        "stars": 23,
         "tags": [
             "Audio"
         ],
@@ -439,7 +467,7 @@
             "Android",
             "Windows"
         ],
-        "stars": 8,
+        "stars": 9,
         "tags": [
             "Audio"
         ],
@@ -455,7 +483,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 29,
         "tags": [
             "Game mechanic",
             "Template projects",
@@ -475,7 +503,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 30,
+        "stars": 32,
         "tags": [
             "AI",
             "Math"
@@ -492,7 +520,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 12,
+        "stars": 14,
         "tags": [
             "Shaders"
         ],
@@ -504,7 +532,7 @@
             "macOS",
             "Windows"
         ],
-        "stars": 3,
+        "stars": 4,
         "tags": [
             "System"
         ],
@@ -520,7 +548,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 41,
+        "stars": 44,
         "tags": [
             "System",
             "Tools"
@@ -553,7 +581,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 23,
         "tags": [
             "GUI",
             "System"
@@ -570,7 +598,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 27,
+        "stars": 29,
         "tags": [
             "AI",
             "Math"
@@ -596,18 +624,6 @@
         "timestamp": 1567163518.0
     },
     {
-        "id": "definitely-lit",
-        "platforms": [
-            "Windows"
-        ],
-        "stars": 6,
-        "tags": [
-            "Rendering",
-            "Shaders"
-        ],
-        "timestamp": 1678195224.0
-    },
-    {
         "id": "defkit",
         "platforms": [
             "iOS",
@@ -617,7 +633,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 14,
+        "stars": 16,
         "tags": [
             "System"
         ],
@@ -633,7 +649,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 4,
+        "stars": 6,
         "tags": [
             "Physics",
             "Rendering",
@@ -651,7 +667,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 15,
+        "stars": 16,
         "tags": [
             "Math"
         ],
@@ -684,7 +700,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 34,
+        "stars": 36,
         "tags": [
             "Editor"
         ],
@@ -700,7 +716,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 25,
+        "stars": 29,
         "tags": [
             "Physics"
         ],
@@ -744,7 +760,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 13,
+        "stars": 17,
         "tags": [
             "Art assets",
             "Rendering",
@@ -753,29 +769,47 @@
         "timestamp": 1595414277.0
     },
     {
-        "id": "defold-gui",
+        "id": "defold-event",
         "platforms": [
-            "Android",
             "iOS",
+            "Android",
             "macOS",
             "Windows",
             "Linux",
             "HTML5"
         ],
-        "stars": 14,
+        "stars": 16,
         "tags": [
-            "GUI"
+            "System"
         ],
-        "timestamp": 1660535560.0
+        "timestamp": 1567163518.0
     },
     {
         "id": "defold-ink",
         "platforms": [],
-        "stars": 4,
+        "stars": 11,
         "tags": [
             "Game mechanic"
         ],
         "timestamp": 1678195224.0
+    },
+    {
+        "id": "defold-log",
+        "platforms": [
+            "iOS",
+            "Android",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 17,
+        "tags": [
+            "System",
+            "Util",
+            "Tools"
+        ],
+        "timestamp": 1567163518.0
     },
     {
         "id": "defold-mobilehtml5-typing",
@@ -791,6 +825,21 @@
         "timestamp": 1686155207.0
     },
     {
+        "id": "defold-oop",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux"
+        ],
+        "stars": 1,
+        "tags": [
+            "Lua"
+        ],
+        "timestamp": 1704802333.0
+    },
+    {
         "id": "defold-parser",
         "platforms": [
             "Android",
@@ -800,12 +849,29 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 6,
+        "stars": 9,
         "tags": [
             "System",
             "Util"
         ],
         "timestamp": 1688946347.0
+    },
+    {
+        "id": "defold-persist",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 9,
+        "tags": [
+            "System",
+            "Util"
+        ],
+        "timestamp": 1706227474.0
     },
     {
         "id": "defold-polyglot",
@@ -826,6 +892,23 @@
         "timestamp": 1629934163.0
     },
     {
+        "id": "defold-rendy",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 25,
+        "tags": [
+            "Camera",
+            "Rendering"
+        ],
+        "timestamp": 1706227474.0
+    },
+    {
         "id": "defold-tile-raycast",
         "platforms": [
             "Android",
@@ -835,7 +918,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 7,
+        "stars": 8,
         "tags": [
             "Game mechanic",
             "Math"
@@ -852,12 +935,31 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 10,
+        "stars": 12,
         "tags": [
             "GUI",
             "Game mechanic"
         ],
         "timestamp": 1645093320.0
+    },
+    {
+        "id": "defold-tweener",
+        "platforms": [
+            "iOS",
+            "Android",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 11,
+        "tags": [
+            "System",
+            "Util",
+            "Math",
+            "Animation"
+        ],
+        "timestamp": 1567163518.0
     },
     {
         "id": "defold-typewriter",
@@ -869,7 +971,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 20,
+        "stars": 22,
         "tags": [
             "GUI"
         ],
@@ -880,7 +982,7 @@
         "platforms": [
             "Android"
         ],
-        "stars": 6,
+        "stars": 5,
         "tags": [
             "System"
         ],
@@ -913,7 +1015,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 30,
+        "stars": 35,
         "tags": [
             "Game mechanic",
             "Physics"
@@ -930,7 +1032,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 88,
+        "stars": 108,
         "tags": [
             "Input"
         ],
@@ -946,7 +1048,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 16,
+        "stars": 17,
         "tags": [],
         "timestamp": 1567163518.0
     },
@@ -960,7 +1062,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 26,
         "tags": [
             "Physics",
             "Tools"
@@ -977,7 +1079,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 20,
+        "stars": 23,
         "tags": [
             "GUI",
             "Template projects"
@@ -994,7 +1096,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 75,
+        "stars": 90,
         "tags": [
             "System"
         ],
@@ -1007,7 +1109,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 7,
+        "stars": 8,
         "tags": [
             "Input",
             "System"
@@ -1024,7 +1126,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 20,
+        "stars": 21,
         "tags": [
             "System",
             "Tools"
@@ -1057,7 +1159,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 48,
+        "stars": 65,
         "tags": [
             "System"
         ],
@@ -1073,7 +1175,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 3,
+        "stars": 4,
         "tags": [
             "System"
         ],
@@ -1089,7 +1191,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 5,
+        "stars": 8,
         "tags": [
             "Util"
         ],
@@ -1105,7 +1207,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 37,
+        "stars": 39,
         "tags": [
             "Tools"
         ],
@@ -1149,7 +1251,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 38,
+        "stars": 39,
         "tags": [
             "Ads",
             "Monetization"
@@ -1185,6 +1287,40 @@
         "timestamp": 1567163518.0
     },
     {
+        "id": "deployer",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 32,
+        "tags": [
+            "Util",
+            "Tools"
+        ],
+        "timestamp": 1590661297.0
+    },
+    {
+        "id": "derez",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 4,
+        "tags": [
+            "Camera",
+            "Rendering"
+        ],
+        "timestamp": 1711731297.0
+    },
+    {
         "id": "dicebag",
         "platforms": [
             "Android",
@@ -1194,7 +1330,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 23,
         "tags": [
             "Game mechanic",
             "Math",
@@ -1212,7 +1348,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 61,
+        "stars": 65,
         "tags": [
             "GUI",
             "Input"
@@ -1226,7 +1362,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 8,
+        "stars": 10,
         "tags": [
             "System",
             "Social",
@@ -1244,7 +1380,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 14,
+        "stars": 20,
         "tags": [
             "Shaders"
         ],
@@ -1260,7 +1396,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 61,
+        "stars": 73,
         "tags": [
             "Rendering"
         ],
@@ -1276,7 +1412,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 173,
+        "stars": 227,
         "tags": [
             "GUI",
             "Input",
@@ -1308,7 +1444,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 2,
+        "stars": 3,
         "tags": [
             "Editor script"
         ],
@@ -1321,7 +1457,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 1,
+        "stars": 2,
         "tags": [
             "Editor script"
         ],
@@ -1334,7 +1470,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 1,
+        "stars": 2,
         "tags": [
             "Editor script"
         ],
@@ -1347,7 +1483,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 8,
+        "stars": 9,
         "tags": [
             "Editor script"
         ],
@@ -1363,7 +1499,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 25,
+        "stars": 29,
         "tags": [
             "Template projects",
             "Game mechanic"
@@ -1380,30 +1516,10 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 133,
+        "stars": 144,
         "tags": [
             "Art assets",
             "Template projects"
-        ],
-        "timestamp": 1567163518.0
-    },
-    {
-        "id": "enhance",
-        "platforms": [
-            "iOS",
-            "Android",
-            "macOS",
-            "Windows",
-            "Linux",
-            "HTML5"
-        ],
-        "stars": 14,
-        "tags": [
-            "Ads",
-            "Audio",
-            "Analytics",
-            "Video",
-            "Monetization"
         ],
         "timestamp": 1567163518.0
     },
@@ -1485,7 +1601,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 2,
+        "stars": 3,
         "tags": [
             "Achievements"
         ],
@@ -1513,7 +1629,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 23,
+        "stars": 24,
         "tags": [
             "Audio"
         ],
@@ -1525,7 +1641,7 @@
             "Android",
             "iOS"
         ],
-        "stars": 6,
+        "stars": 7,
         "tags": [
             "Fonts",
             "GUI",
@@ -1554,7 +1670,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 9,
+        "stars": 10,
         "tags": [
             "Monetization",
             "Ads"
@@ -1631,7 +1747,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 115,
+        "stars": 138,
         "tags": [
             "GUI"
         ],
@@ -1647,7 +1763,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 18,
+        "stars": 20,
         "tags": [
             "Analytics"
         ],
@@ -1659,7 +1775,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 13,
+        "stars": 15,
         "tags": [
             "Analytics"
         ],
@@ -1683,7 +1799,7 @@
         "platforms": [
             "Android"
         ],
-        "stars": 1,
+        "stars": 2,
         "tags": [
             "Platform"
         ],
@@ -1711,7 +1827,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 175,
+        "stars": 186,
         "tags": [
             "Tools"
         ],
@@ -1727,7 +1843,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 32,
+        "stars": 35,
         "tags": [
             "Rendering",
             "Shaders"
@@ -1744,12 +1860,29 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 48,
+        "stars": 61,
         "tags": [
             "Rendering",
             "Shaders"
         ],
         "timestamp": 1567163518.0
+    },
+    {
+        "id": "i18n-defold",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 1,
+        "tags": [
+            "GUI",
+            "Util"
+        ],
+        "timestamp": 1706082227.0
     },
     {
         "id": "iac",
@@ -1770,7 +1903,7 @@
             "iOS",
             "HTML5"
         ],
-        "stars": 17,
+        "stars": 20,
         "tags": [
             "Monetization"
         ],
@@ -1786,7 +1919,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 23,
+        "stars": 29,
         "tags": [
             "Rendering",
             "Shaders"
@@ -1845,7 +1978,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 8,
+        "stars": 10,
         "tags": [
             "Ads",
             "Monetization"
@@ -1880,13 +2013,30 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 24,
+        "stars": 30,
         "tags": [
             "Game mechanic",
             "Input",
             "Physics"
         ],
         "timestamp": 1656236494.0
+    },
+    {
+        "id": "lightandshadows",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "HTML5"
+        ],
+        "stars": 46,
+        "tags": [
+            "Rendering",
+            "Sample project",
+            "Shaders"
+        ],
+        "timestamp": 1711731297.0
     },
     {
         "id": "log",
@@ -1898,7 +2048,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 4,
+        "stars": 7,
         "tags": [
             "System"
         ],
@@ -1914,7 +2064,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 15,
+        "stars": 19,
         "tags": [
             "Template projects"
         ],
@@ -1930,7 +2080,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 5,
+        "stars": 6,
         "tags": [
             "Util"
         ],
@@ -1946,7 +2096,7 @@
             "macOS",
             "HTML5"
         ],
-        "stars": 3,
+        "stars": 10,
         "tags": [
             "Lua"
         ],
@@ -1978,7 +2128,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 7,
+        "stars": 9,
         "tags": [
             "System"
         ],
@@ -2026,7 +2176,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 133,
+        "stars": 144,
         "tags": [
             "Template projects",
             "Game mechanic"
@@ -2043,7 +2193,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 22,
+        "stars": 28,
         "tags": [
             "GUI",
             "Game mechanic",
@@ -2094,7 +2244,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 7,
+        "stars": 9,
         "tags": [
             "Audio"
         ],
@@ -2110,7 +2260,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 28,
+        "stars": 31,
         "tags": [
             "AI",
             "Game mechanic"
@@ -2127,7 +2277,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 118,
+        "stars": 145,
         "tags": [
             "GUI"
         ],
@@ -2143,7 +2293,7 @@
             "Linux",
             "macOS"
         ],
-        "stars": 65,
+        "stars": 71,
         "tags": [
             "Social",
             "Platform",
@@ -2162,7 +2312,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 96,
+        "stars": 114,
         "tags": [
             "Game mechanic"
         ],
@@ -2175,7 +2325,7 @@
             "Android",
             "macOS"
         ],
-        "stars": 8,
+        "stars": 11,
         "tags": [
             "Fonts",
             "GUI",
@@ -2211,7 +2361,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 19,
+        "stars": 18,
         "tags": [
             "Audio"
         ],
@@ -2227,7 +2377,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 30,
+        "stars": 37,
         "tags": [
             "Camera",
             "Input",
@@ -2245,7 +2395,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 109,
+        "stars": 133,
         "tags": [
             "Camera"
         ],
@@ -2261,7 +2411,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 6,
+        "stars": 7,
         "tags": [
             "System"
         ],
@@ -2277,7 +2427,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 47,
+        "stars": 62,
         "tags": [
             "Animation",
             "Editor",
@@ -2286,6 +2436,22 @@
             "Util"
         ],
         "timestamp": 1669586732.0
+    },
+    {
+        "id": "pcg-random",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 4,
+        "tags": [
+            "Math"
+        ],
+        "timestamp": 1707124929.0
     },
     {
         "id": "pcgrandom",
@@ -2297,9 +2463,22 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 22,
+        "stars": 23,
         "tags": [
             "Math"
+        ],
+        "timestamp": 1567163518.0
+    },
+    {
+        "id": "perspectiveparallax",
+        "platforms": [
+            "Pc, html5"
+        ],
+        "stars": 6,
+        "tags": [
+            "Sample project",
+            "Art assets",
+            "Parallax effect"
         ],
         "timestamp": 1567163518.0
     },
@@ -2327,7 +2506,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 23,
+        "stars": 40,
         "tags": [
             "System"
         ],
@@ -2359,7 +2538,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 34,
+        "stars": 44,
         "tags": [
             "Physics",
             "Game mechanic"
@@ -2389,7 +2568,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 40,
+        "stars": 39,
         "tags": [
             "Analytics",
             "Social",
@@ -2416,7 +2595,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 14,
+        "stars": 20,
         "tags": [
             "Ads",
             "Social",
@@ -2434,7 +2613,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 29,
+        "stars": 37,
         "tags": [
             "Fonts",
             "GUI"
@@ -2449,7 +2628,7 @@
             "macOS",
             "Windows"
         ],
-        "stars": 7,
+        "stars": 8,
         "tags": [
             "System"
         ],
@@ -2512,7 +2691,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 1,
+        "stars": 2,
         "tags": [
             "Math"
         ],
@@ -2528,7 +2707,7 @@
             "macOS",
             "HTML5"
         ],
-        "stars": 4,
+        "stars": 6,
         "tags": [
             "Security"
         ],
@@ -2539,7 +2718,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 26,
+        "stars": 30,
         "tags": [
             "Util"
         ],
@@ -2551,7 +2730,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 12,
+        "stars": 13,
         "tags": [
             "System"
         ],
@@ -2567,7 +2746,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 59,
+        "stars": 64,
         "tags": [
             "Fonts",
             "GUI"
@@ -2584,7 +2763,7 @@
             "macOS",
             "HTML5"
         ],
-        "stars": 25,
+        "stars": 31,
         "tags": [
             "Animation",
             "Tools",
@@ -2593,11 +2772,87 @@
         "timestamp": 1681228502.0
     },
     {
+        "id": "rustore-appupdate",
+        "platforms": [
+            "Android"
+        ],
+        "stars": 0,
+        "tags": [
+            "Lua",
+            "Sample project",
+            "System",
+            "Template projects",
+            "Tutorials",
+            "Util"
+        ],
+        "timestamp": 1710241701.0
+    },
+    {
+        "id": "rustore-billing",
+        "platforms": [
+            "Android"
+        ],
+        "stars": 0,
+        "tags": [
+            "Monetization",
+            "Lua",
+            "Sample project",
+            "System",
+            "Template projects",
+            "Tutorials",
+            "Util"
+        ],
+        "timestamp": 1710241701.0
+    },
+    {
+        "id": "rustore-push",
+        "platforms": [
+            "Android"
+        ],
+        "stars": 0,
+        "tags": [
+            "Lua",
+            "Sample project",
+            "System",
+            "Template projects",
+            "Tutorials",
+            "Util"
+        ],
+        "timestamp": 1711731297.0
+    },
+    {
+        "id": "rustore-remoteconfig",
+        "platforms": [
+            "Android"
+        ],
+        "stars": 0,
+        "tags": [
+            "Lua",
+            "Sample project",
+            "System",
+            "Template projects",
+            "Tutorials",
+            "Util"
+        ],
+        "timestamp": 1710241701.0
+    },
+    {
+        "id": "rustore-review",
+        "platforms": [
+            "Android"
+        ],
+        "stars": 0,
+        "tags": [
+            "System"
+        ],
+        "timestamp": 1704801828.0
+    },
+    {
         "id": "safearea",
         "platforms": [
             "iOS"
         ],
-        "stars": 13,
+        "stars": 17,
         "tags": [
             "System"
         ],
@@ -2613,7 +2868,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 105,
+        "stars": 124,
         "tags": [
             "Art assets",
             "Camera",
@@ -2633,7 +2888,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 25,
+        "stars": 28,
         "tags": [
             "Rendering"
         ],
@@ -2656,13 +2911,29 @@
         "timestamp": 1642463035.0
     },
     {
+        "id": "sfmt",
+        "platforms": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "stars": 3,
+        "tags": [
+            "Math"
+        ],
+        "timestamp": 1707124529.0
+    },
+    {
         "id": "share",
         "platforms": [
             "iOS",
             "Android",
             "macOS"
         ],
-        "stars": 20,
+        "stars": 21,
         "tags": [
             "System"
         ],
@@ -2678,7 +2949,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 31,
+        "stars": 42,
         "tags": [
             "Shaders"
         ],
@@ -2694,7 +2965,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 11,
+        "stars": 12,
         "tags": [
             "Tutorials",
             "Game mechanic"
@@ -2717,7 +2988,7 @@
         "platforms": [
             "iOS"
         ],
-        "stars": 106,
+        "stars": 120,
         "tags": [
             "Animation",
             "Art assets",
@@ -2736,11 +3007,25 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 14,
+        "stars": 16,
         "tags": [
             "Math"
         ],
         "timestamp": 1632702237.0
+    },
+    {
+        "id": "spritefusion",
+        "platforms": [
+            "HTML5"
+        ],
+        "stars": 0,
+        "tags": [
+            "Art assets",
+            "Editor",
+            "Tools",
+            "Util"
+        ],
+        "timestamp": 1709811792.0
     },
     {
         "id": "steamworks",
@@ -2749,7 +3034,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 32,
+        "stars": 35,
         "tags": [
             "System",
             "Platform",
@@ -2784,7 +3069,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 9,
+        "stars": 10,
         "tags": [
             "Device control",
             "System"
@@ -2812,7 +3097,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 7,
+        "stars": 10,
         "tags": [
             "Template projects"
         ],
@@ -2825,7 +3110,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 9993,
+        "stars": 10559,
         "tags": [
             "Tools"
         ],
@@ -2841,7 +3126,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 23,
+        "stars": 25,
         "tags": [
             "Animation"
         ],
@@ -2882,7 +3167,7 @@
             "Windows",
             "Linux"
         ],
-        "stars": 29,
+        "stars": 38,
         "tags": [
             "Editor",
             "Editor script",
@@ -2902,7 +3187,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 1,
+        "stars": 2,
         "tags": [
             "Animation",
             "Art assets"
@@ -2919,7 +3204,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 12,
+        "stars": 14,
         "tags": [
             "Math",
             "Physics",
@@ -2937,7 +3222,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 33,
+        "stars": 44,
         "tags": [
             "Tools"
         ],
@@ -2963,7 +3248,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 14,
+        "stars": 13,
         "tags": [
             "Device control",
             "System"
@@ -2976,7 +3261,7 @@
             "iOS",
             "Android"
         ],
-        "stars": 7,
+        "stars": 9,
         "tags": [
             "Video"
         ],
@@ -2992,7 +3277,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 3,
+        "stars": 6,
         "tags": [
             "Template projects"
         ],
@@ -3024,7 +3309,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 4,
+        "stars": 5,
         "tags": [
             "Math"
         ],
@@ -3040,7 +3325,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 126,
+        "stars": 152,
         "tags": [
             "Editor",
             "Tools",
@@ -3058,7 +3343,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 133,
+        "stars": 144,
         "tags": [
             "Animation",
             "Art assets",
@@ -3072,7 +3357,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 10,
+        "stars": 11,
         "tags": [
             "System",
             "Util"
@@ -3091,6 +3376,17 @@
         "timestamp": 1608548302.0
     },
     {
+        "id": "webrtc",
+        "platforms": [
+            "HTML5"
+        ],
+        "stars": 3,
+        "tags": [
+            "Network"
+        ],
+        "timestamp": 1707126451.0
+    },
+    {
         "id": "websocket",
         "platforms": [
             "iOS",
@@ -3100,7 +3396,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 21,
+        "stars": 26,
         "tags": [
             "Network"
         ],
@@ -3116,7 +3412,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 25,
+        "stars": 26,
         "tags": [
             "GUI"
         ],
@@ -3132,7 +3428,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 9,
+        "stars": 10,
         "tags": [
             "Game mechanic"
         ],
@@ -3143,7 +3439,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 0,
+        "stars": 1,
         "tags": [
             "Ads",
             "Analytics",
@@ -3162,7 +3458,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 3,
+        "stars": 4,
         "tags": [
             "GUI",
             "Game mechanic"
@@ -3174,7 +3470,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 42,
+        "stars": 54,
         "tags": [
             "Ads",
             "Monetization",
@@ -3187,7 +3483,7 @@
         "platforms": [
             "HTML5"
         ],
-        "stars": 10,
+        "stars": 13,
         "tags": [
             "Analytics"
         ],
@@ -3203,7 +3499,7 @@
             "Linux",
             "HTML5"
         ],
-        "stars": 8,
+        "stars": 11,
         "tags": [
             "GUI",
             "Rendering"

@@ -162,76 +162,79 @@ init()
 function init(self)
     -- Define the render predicates. Each predicate is drawn by itself and
     -- that allows us to change the state of OpenGL between the draws.
-    self.tile_pred = render.predicate({"tile"})
-    self.gui_pred = render.predicate({"gui"})
-    self.text_pred = render.predicate({"text"})
-    self.particle_pred = render.predicate({"particle"})
-    self.model_pred = render.predicate({"model"})
+    self.predicates = create_predicates("tile", "gui", "text", "particle", "model")
 
-    self.clear_color = vmath.vector4(0, 0, 0, 0)
-    self.clear_color.x = sys.get_config("render.clear_color_red", 0)
-    self.clear_color.y = sys.get_config("render.clear_color_green", 0)
-    self.clear_color.z = sys.get_config("render.clear_color_blue", 0)
-    self.clear_color.w = sys.get_config("render.clear_color_alpha", 0)
-
-    -- Define a view matrix to use. If we have a camera object, it will
-    -- send "set_view_projection" messages to the render script and we
-    -- can update the view matrix with the value the camera provides.
-    self.view = vmath.matrix4()
+    -- Create and fill data tables will be used in update()
+    local state = create_state()
+    self.state = state
+    local camera_world = create_camera(state, "camera_world", true)
+    init_camera(camera_world, get_stretch_projection)
+    local camera_gui = create_camera(state, "camera_gui")
+    init_camera(camera_gui, get_gui_projection)
+    update_state(state)
 end
 ```
 
 update()
 : The `update()` function is called once each frame. Its function is to perform the actual drawing by calling the underlying OpenGL ES APIs (OpenGL Embedded Systems API). To properly understand what's going on in the `update()` function, you need to understand how OpenGL works. There are many great resources on OpenGL ES available. The official site is a good starting place. You find it at https://www.khronos.org/opengles/
 
-  This example contains the setup necessary to draw 3D models. The `init()` function defined a `self.model_pred` predicate. Elsewhere a material with the tag "model" has been created. There are also some model components that use the material:
+  This example contains the setup necessary to draw 3D models. The `init()` function defined a `self.predicates.model` predicate. Elsewhere a material with the tag "model" has been created. There are also some model components that use the material:
 
 ```lua
 function update(self)
-    local window_width = render.get_window_width()
-    local window_height = render.get_window_height()
-    if window_width == 0 or window_height == 0 then
-        return
+    local state = self.state
+     if not state.valid then
+        if not update_state(state) then
+            return
+        end
     end
 
+    local predicates = self.predicates
     -- clear screen buffers
     --
     render.set_depth_mask(true)
     render.set_stencil_mask(0xff)
-    render.clear({[render.BUFFER_COLOR_BIT] = self.clear_color, [render.BUFFER_DEPTH_BIT] = 1, [render.BUFFER_STENCIL_BIT] = 0})
+    render.clear(state.clear_buffers)
 
-    -- render world (sprites, tilemaps, particles etc)
+    local camera_world = state.cameras.camera_world
+    render.set_viewport(0, 0, state.window_width, state.window_height)
+    render.set_view(camera_world.view)
+    render.set_projection(camera_world.proj)
+
+
+    -- render models
     --
-    local proj = get_projection(self)
-    local frustum = proj * self.view
-
-    render.set_viewport(0, 0, window_width, window_height)
-    render.set_view(self.view)
-    render.set_projection(proj)
-
+    render.set_blend_func(render.BLEND_SRC_ALPHA, render.BLEND_ONE_MINUS_SRC_ALPHA)
+    render.enable_state(render.STATE_CULL_FACE)
+    render.enable_state(render.STATE_DEPTH_TEST)
+    render.set_depth_mask(true)
+    render.draw(predicates.model_pred)
     render.set_depth_mask(false)
     render.disable_state(render.STATE_DEPTH_TEST)
-    render.disable_state(render.STATE_STENCIL_TEST)
-    render.enable_state(render.STATE_BLEND)
-    render.set_blend_func(render.BLEND_SRC_ALPHA, render.BLEND_ONE_MINUS_SRC_ALPHA)
     render.disable_state(render.STATE_CULL_FACE)
 
-    render.draw(self.tile_pred, {frustum = frustum})
-    render.draw(self.particle_pred, {frustum = frustum})
+     -- render world (sprites, tilemaps, particles etc)
+     --
+    render.set_blend_func(render.BLEND_SRC_ALPHA, render.BLEND_ONE_MINUS_SRC_ALPHA)
+    render.enable_state(render.STATE_DEPTH_TEST)
+    render.enable_state(render.STATE_STENCIL_TEST)
+    render.enable_state(render.STATE_BLEND)
+    render.draw(predicates.tile)
+    render.draw(predicates.particle)
+    render.disable_state(render.STATE_STENCIL_TEST)
+    render.disable_state(render.STATE_DEPTH_TEST)
+
+    -- debug
     render.draw_debug3d()
 
     -- render GUI
     --
-    local view_gui = vmath.matrix4()
-    local proj_gui = vmath.matrix4_orthographic(0, window_width, 0, window_height, -1, 1)
-    local frustum_gui = proj_gui * view_gui
-
-    render.set_view(view_gui)
-    render.set_projection(proj_gui)
-
+    local camera_gui = state.cameras.camera_gui
+    render.set_view(camera_gui.view)
+    render.set_projection(camera_gui.proj)
     render.enable_state(render.STATE_STENCIL_TEST)
-    render.draw(self.gui_pred, {frustum = frustum_gui})
-    render.draw(self.text_pred, {frustum = frustum_gui})
+    render.draw(predicates.gui, camera_gui.frustum)
+    render.draw(predicates.text, camera_gui.frustum)
     render.disable_state(render.STATE_STENCIL_TEST)
 end
 ```
@@ -242,17 +245,21 @@ on_message()
 : A render script can define an `on_message()` function and receive messages from other parts of your game or app. A common case where an external component sends information to the render script is the _camera_. A camera component that has acquired camera focus will automatically send its view and projection to the render script each frame. This message is named `"set_view_projection"`:
 
 ```lua
+local MSG_CLEAR_COLOR =         hash("clear_color")
+local MSG_WINDOW_RESIZED =      hash("window_resized")
+local MSG_SET_VIEW_PROJ =       hash("set_view_projection")
+
 function on_message(self, message_id, message)
-    if message_id == hash("clear_color") then
+    if message_id == MSG_CLEAR_COLOR then
         -- Someone sent us a new clear color to be used.
-        self.clear_color = message.color
-    elseif message_id == hash("set_view_projection") then
+        update_clear_color(state, message.color)
+    elseif message_id == MSG_SET_VIEW_PROJ then
         -- The camera component that has camera focus will sent set_view_projection
         -- messages to the @render socket. We can use the camera information to
         -- set view (and possibly projection) of the rendering.
-        -- Currently, we're rendering orthogonally so there's no need for camera
-        -- projection.
-        self.view = message.view
+        camera.view = message.view
+        self.camera_projection = message.projection or vmath.matrix4()
+        update_camera(camera, state)
     end
 end
 ```
@@ -263,6 +270,66 @@ However, any script of GUI script can send messages to the render script though 
 -- Change the clear color.
 msg.post("@render:", "clear_color", { color = vmath.vector4(0.3, 0.4, 0.5, 0) })
 ```
+
+## Render Resources
+To pass in certain engine resources into the render script, you can add these into the `Render Resoures` table in the .render file assigned to the project:
+
+![Render resources](../images/render/render_resources.png)
+
+Using these resources in a render script:
+
+```lua
+-- "my_material" will now be used for all draw calls associated with the predicate
+render.enable_material("my_material")
+-- anything drawn by the predicate will end up in "my_render_target"
+render.set_render_target("my_render_target")
+render.draw(self.my_full_screen_predicate)
+render.set_render_target(render.RENDER_TARGET_DEFAULT)
+render.disable_material()
+
+-- bind the render target result texture to whatever is getting rendered via the predicate
+render.enable_texture(0, "my_render_target", render.BUFFER_COLOR0_BIT)
+render.draw(self.my_tile_predicate)
+```
+
+<div class='sidenote' markdown='1'>
+Defold currently only supports `Materials` and `Render Targets` as referenced render resources, but over time more resource types will be supported by this system.
+</div>
+
+## Texture handles
+
+Textures in Defold are represented internally as a handle, which essentially equates to a number that should uniquely identify a texture object anywhere in the engine. This means that you can bridge the gameobject world with the rendering world by passing these handles between the render system and a gameobject script. For example, a script can create a dynamic texture in a script attached to a gameobject and send this to the renderer to be used as a global texture in a draw command.
+
+In a `.script` file:
+
+```lua
+local my_texture_resource = resource.create_texture("/my_texture.texture", tparams)
+-- note: my_texture_resource is a hash to the resource path, which can't be used as a handle!
+local my_texture_handle = resource.get_texture_info(my_texture_resource)
+-- my_texture_handle contains information about the texture, such as width, height and so on
+-- it does also contain the handle, which is what we are after
+msg.post("@render:", "set_texture", { handle = my_texture_handle.handle })
+```
+
+In a .render_script file:
+
+```lua
+function on_message(self, message_id, message)
+    if message_id == hash("set_texture") then
+        self.my_texture = message.handle
+    end
+end
+
+function update(self)
+    -- bind the custom texture to the draw state
+    render.enable_texture(0, self.my_texture)
+    -- do drawing..
+end
+```
+
+<div class='sidenote' markdown='1'>
+There is currently no way of changing which texture a resource should point to, you can only use raw handles like this in the render script.
+</div>
 
 ## Supported graphics APIs
 The Defold render script API translates render operations into the following graphics APIs:
@@ -279,8 +346,10 @@ The Defold render script API translates render operations into the following gra
 : The engine will send this message on changes of the window size. You can listen to this message to alter rendering when the target window size changes. On desktop this means that the actual game window has been resized and on mobile devices this message is sent whenever an orientation change happens.
 
 ```lua
+local MSG_WINDOW_RESIZED =      hash("window_resized")
+
 function on_message(self, message_id, message)
-  if message_id == hash("window_resized") then
+  if message_id == MSG_WINDOW_RESIZED then
     -- The window was resized. message.width and message.height contain the new dimensions.
     ...
   end
@@ -299,7 +368,7 @@ msg.post("@render:", "draw_line", { start_point = p1, end_point = p2, color = co
 ```
 
 `"draw_text"`
-: Draw debug text. Use to print debug information. The text is drawn with the built-in "system_font" font. The system font has a material with tag "text" and is rendered with other text in the default render script.
+: Draw debug text. Use to print debug information. The text is drawn with the built-in `always_on_top.font` font. The system font has a material with tag `debug_text` and is rendered with other text in the default render script.
 
 ```lua
 -- draw a text message

@@ -8,11 +8,11 @@ brief: 当两个碰撞对象接触, 引擎会向这两个对象上的所有组�
 
 # 碰撞消息
 
-当两个碰撞对象接触, 引擎会向这两个对象上的所有组件广播碰撞消息:
+当两个碰撞对象接触, 引擎会向这两个对象广播碰撞消息:
 
 ## 碰撞响应
 
-所有碰撞物体都会收到 `"collision_response"` 消息. 消息包含如下内容:
+如果碰撞一方是 "dynamic", "kinematic" 或 "static" 类型时会收到 `"collision_response"` 消息. 消息包含如下内容:
 
 `other_id`
 : 另一个碰撞物的id (`hash`过的)
@@ -22,6 +22,9 @@ brief: 当两个碰撞对象接触, 引擎会向这两个对象上的所有组�
 
 `other_group`
 : 另一个碰撞物所在的碰撞组 (`hash`过的)
+
+`own_group`
+: 碰撞物体的碰撞组 (`hash`过的)
 
 如果不需要很详细的信息, 碰撞响应消息就足够了, 比如检测子弹是否碰撞了敌人. 每帧每对碰撞物只有一个能收到此消息.
 
@@ -37,7 +40,7 @@ end
 
 ## 碰撞点响应
 
-如果碰撞一方是 dynamic 或 kinematic 对象, 那么它会收到 `"contact_point_response"` 消息. 消息包含如下内容:
+如果碰撞一方是 dynamic 或 kinematic 对象, 而另一方是 "dynamic", "kinematic" 或 "static" 类型时, 会收到 `"contact_point_response"` 消息. 消息包含如下内容:
 
 `position`
 : 接触点世界坐标 (`vector3`类型).
@@ -72,6 +75,9 @@ end
 `group`
 : 另一个物体所处的碰撞组 (`hash`过的).
 
+`own_group`
+: 碰撞物体的碰撞组 (`hash`过的).
+
 要让相碰撞的物体好好分离, 用 `"contact_point_response"` 消息里的数据就够了. 注意每帧每对碰撞物可能不止收到一个 `"contact_point_response"` 消息, 这取决于接触的情况, 详见 [碰撞处理教程](/zh/manuals/physics-resolving-collisions).
 
 ```Lua
@@ -88,14 +94,19 @@ end
 
 ## 触发器响应
 
-作为 "trigger" 类型的碰撞对象会收到 `"trigger_response"` 消息.
-触发器与碰撞对象接触时会收到 `"collision_response"` 消息. 而且, 接触开始和结束时都会收到 `"trigger_response"` 消息. 消息包含如下信息:
+如果碰撞一方是 "trigger" 类型则会收到 `"trigger_response"`. 碰撞开始时和碰撞结束时都会发送一次消息. 消息包含如下内容:
 
 `other_id`
 : 另一个物体的id (`hash`过的).
 
 `enter`
 : 如果另一个物体进入触发器为 `true`, 离开为 `false`. (`boolean`类型).
+
+`other_group`
+: 另一个物体所处的碰撞组 (`hash`过的).
+
+`own_group`
+: 碰撞物体的碰撞组 (`hash`过的).
 
 ```Lua
 function on_message(self, message_id, message, sender)

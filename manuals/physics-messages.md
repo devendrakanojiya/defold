@@ -8,11 +8,11 @@ brief: When two objects collide, the engine will broadcast messages to all compo
 
 # Collision messages
 
-When two objects collide, the engine will broadcast messages to all components in both objects:
+When two objects collide, the engine will broadcast messages to both objects:
 
 ## Collision response
 
-The `"collision_response"` message is sent for all collision objects. It has the following fields set:
+The `"collision_response"` message is sent when one of the colliding objects is of type "dynamic", "kinematic" or "static". It has the following fields set:
 
 `other_id`
 : the id of the instance the collision object collided with (`hash`)
@@ -22,6 +22,9 @@ The `"collision_response"` message is sent for all collision objects. It has the
 
 `other_group`
 : the collision group of the other collision object (`hash`)
+
+`own_group`
+: the collision group of the collision object (`hash`)
 
 The collision_response message is only adequate to resolve collisions where you don't need any details on the actual intersection of the objects, for example if you want to detect if a bullet hits an enemy. There is only one of these messages sent for any colliding pair of objects each frame.
 
@@ -37,7 +40,7 @@ end
 
 ## Contact point response
 
-The `"contact_point_response"` message is sent when one of the colliding objects is dynamic or kinematic. It has the following fields set:
+The `"contact_point_response"` message is sent when one of the colliding objects is of type "dynamic" or "kinematic" and the other is of type "dynamic", "kinematic" or "static". It has the following fields set:
 
 `position`
 : world position of the contact point (`vector3`).
@@ -69,8 +72,11 @@ The `"contact_point_response"` message is sent when one of the colliding objects
 `other_position`
 : the world position of the other collision object (`vector3`).
 
-`group`
+`other_group`
 : the collision group of the other collision object (`hash`).
+
+`own_group`
+: the collision group of the collision object (`hash`).
 
 For a game or application where you need to separate objects perfectly, the `"contact_point_response"` message gives you all information you need. However, note that for any given collision pair, several `"contact_point_response"` messages can be received each frame, depending on the nature of the collision. See [Resolving collisions for more information](/manuals/physics-resolving-collisions).
 
@@ -88,16 +94,19 @@ end
 
 ## Trigger response
 
-The `"trigger_response"`  message is sent when a colliding object is of type "trigger".
-
-
-In a trigger collision `"collision_response"` messages are sent. In addition, triggers also send a special `"trigger_response"` message when the collision begins and ends. The message has the following fields:
+The `"trigger_response"`  message is sent when one of the colliding objects is of type "trigger". The message will be sent once when the collision is first detected and then once more when the objects are no longer colliding. It has the following fields:
 
 `other_id`
 : the id of the instance the collision object collided with (`hash`).
 
 `enter`
 : `true` if the interaction was an entry into the trigger, `false` if it was an exit. (`boolean`).
+
+`other_group`
+: the collision group of the other collision object (`hash`).
+
+`own_group`
+: the collision group of the collision object (`hash`).
 
 ```Lua
 function on_message(self, message_id, message, sender)

@@ -55,6 +55,10 @@ end
 
 被修改过的属性值以蓝色显示. 点击属性名旁边的重置按钮可以重置回默认值 (脚本里定义属性时的初始值).
 
+<div class='important' markdown='1'>
+生成项目时会分析脚本属性. 不计算表达式的值. 这意味着诸如 `go.property("hp", 3+6)` 不行而 `go.property("hp", 9)` 才行.
+</div>
+
 ## 访问脚本属性
 
 被定义好的脚本属性存在于 `self` 之中, 由脚本实例保存:
@@ -111,3 +115,32 @@ local ids = collectionfactory.create("#cangang_factory", nil, nil, props)
 使用 `factory.create()` 和 `collectionfactory.create()` 创建的对象属性值会覆盖原型文件和脚本定义的初始值.
 
 如果一个游戏对象上附加了多个脚本组件定义了同名的属性, 每一个属性都会用提供给 `factory.create()` 或 `collectionfactory.create()` 的值来初始化.
+
+
+## 资源属性
+
+资源属性类似于脚本属性, 是为基础数据类型定义的:
+
+```lua
+go.property("my_atlas", resource.atlas("/atlas.atlas"))
+go.property("my_font", resource.font("/font.font"))
+go.property("my_material", resource.material("/material.material"))
+go.property("my_texture", resource.texture("/texture.png"))
+go.property("my_tile_source", resource.tile_source("/tilesource.tilesource"))
+```
+
+资源属性定义后像其他脚本属性一样会在 *Properties* 面板里展示出来, 但是是作为文件/资源浏览器项目:
+
+![Resource Properties](/manuals/images/script-properties/resource-properties.png)
+
+你可以用 `go.get()` 或者通过 `self` 脚本实例引用并使用 `go.set()` 访问和存取资源属性:
+
+```lua
+function init(self)
+  go.set("#sprite", "image", self.my_atlas)
+  go.set("#label", "font", self.my_font)
+  go.set("#sprite", "material", self.my_material)
+  go.set("#model", "texture0", self.my_texture)
+  go.set("#tilemap", "tile_source", self.my_tile_source)
+end
+```

@@ -6,14 +6,39 @@
       "timestamp": 1676035923.0
     },
     {
+      "id": "defold-oop",
+      "stars": 1,
+      "timestamp": 1704802333.0
+    },
+    {
       "id": "lua-language-server",
-      "stars": 3,
+      "stars": 10,
       "timestamp": 1681228502.0
     },
     {
       "id": "rive",
-      "stars": 25,
+      "stars": 31,
       "timestamp": 1681228502.0
+    },
+    {
+      "id": "rustore-appupdate",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-billing",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-push",
+      "stars": 0,
+      "timestamp": 1711731297.0
+    },
+    {
+      "id": "rustore-remoteconfig",
+      "stars": 0,
+      "timestamp": 1710241701.0
     }
   ],
   "id": "lua",

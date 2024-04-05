@@ -3,7 +3,7 @@
         "assets": [
             {
                 "id": "dicebag",
-                "stars": 21
+                "stars": 23
             }
         ],
         "id": "f4ecd22ca7133c183d7f46be9c2d848b",
@@ -13,7 +13,7 @@
         "assets": [
             {
                 "id": "debeat",
-                "stars": 22
+                "stars": 23
             },
             {
                 "id": "define",
@@ -21,11 +21,11 @@
             },
             {
                 "id": "defkit",
-                "stars": 14
+                "stars": 16
             },
             {
                 "id": "vibration",
-                "stars": 14
+                "stars": 13
             }
         ],
         "id": "54dcd706c9cc3c34734699ce83e2d6c2",
@@ -35,7 +35,7 @@
         "assets": [
             {
                 "id": "truetilecollisions",
-                "stars": 12
+                "stars": 14
             }
         ],
         "id": "aa7f6024a73f11149dd20d757e1e83ef",
@@ -44,8 +44,18 @@
     {
         "assets": [
             {
+                "id": "perspectiveparallax",
+                "stars": 6
+            }
+        ],
+        "id": "f878b7feb8151d02e74d04da2b7ba224",
+        "name": "Agustin R"
+    },
+    {
+        "assets": [
+            {
                 "id": "trickortreat",
-                "stars": 1
+                "stars": 2
             }
         ],
         "id": "3d50d039c078a00ce00628af22d57540",
@@ -75,15 +85,11 @@
         "assets": [
             {
                 "id": "defvideoads",
-                "stars": 38
+                "stars": 39
             },
             {
                 "id": "drawpixels",
-                "stars": 61
-            },
-            {
-                "id": "poki",
-                "stars": 14
+                "stars": 73
             },
             {
                 "id": "uptime",
@@ -107,7 +113,7 @@
         "assets": [
             {
                 "id": "defoldandroidpermissions",
-                "stars": 6
+                "stars": 5
             }
         ],
         "id": "757d04efa06c859ff9983a6c3bdeb3c2",
@@ -116,18 +122,18 @@
     {
         "assets": [
             {
-                "id": "definitely-lit",
-                "stars": 6
+                "id": "applovin-max",
+                "stars": 9
             }
         ],
-        "id": "7bf9f41dab352df53dd408a762ebc621",
-        "name": "Ar\u00f4nimo"
+        "id": "098c6efcd92b27c4736da2b5693aa7e2",
+        "name": "AppLovin"
     },
     {
         "assets": [
             {
                 "id": "defpfd",
-                "stars": 7
+                "stars": 8
             }
         ],
         "id": "7189ed9feae9804bd2a0b642b81d85fb",
@@ -136,12 +142,22 @@
     {
         "assets": [
             {
+                "id": "derez",
+                "stars": 4
+            }
+        ],
+        "id": "5ef914d2d8f88bf981967ec7c596813d",
+        "name": "Baron Wittman"
+    },
+    {
+        "assets": [
+            {
                 "id": "blip",
-                "stars": 16
+                "stars": 17
             },
             {
                 "id": "clipboard",
-                "stars": 10
+                "stars": 11
             },
             {
                 "id": "dashdocsetfordefold",
@@ -149,35 +165,35 @@
             },
             {
                 "id": "defcon",
-                "stars": 41
+                "stars": 44
             },
             {
                 "id": "defoldinput",
-                "stars": 88
+                "stars": 108
             },
             {
                 "id": "defoldpng",
-                "stars": 16
+                "stars": 17
             },
             {
                 "id": "defpro",
-                "stars": 20
+                "stars": 21
             },
             {
                 "id": "deftest",
-                "stars": 37
+                "stars": 39
             },
             {
                 "id": "emthree",
-                "stars": 25
+                "stars": 29
             },
             {
                 "id": "gooey",
-                "stars": 115
+                "stars": 138
             },
             {
                 "id": "googleanalytics",
-                "stars": 18
+                "stars": 20
             },
             {
                 "id": "gyro",
@@ -189,7 +205,7 @@
             },
             {
                 "id": "lowrezjamtemplate",
-                "stars": 15
+                "stars": 19
             },
             {
                 "id": "luafilesystemlfs",
@@ -201,31 +217,31 @@
             },
             {
                 "id": "monarch",
-                "stars": 118
+                "stars": 145
             },
             {
                 "id": "orthographic",
-                "stars": 109
+                "stars": 133
             },
             {
                 "id": "platypus",
-                "stars": 34
+                "stars": 44
             },
             {
                 "id": "richtext",
-                "stars": 59
+                "stars": 64
             },
             {
                 "id": "screenshot",
-                "stars": 25
+                "stars": 28
             },
             {
                 "id": "share",
-                "stars": 20
+                "stars": 21
             },
             {
                 "id": "steamworks",
-                "stars": 32
+                "stars": 35
             }
         ],
         "id": "6c8581f7da8da7a5c9bb6ffe85f56420",
@@ -235,27 +251,27 @@
         "assets": [
             {
                 "id": "chipsounds",
-                "stars": 10
-            },
-            {
-                "id": "chrono",
-                "stars": 11
-            },
-            {
-                "id": "defblend",
                 "stars": 12
             },
             {
+                "id": "chrono",
+                "stars": 12
+            },
+            {
+                "id": "defblend",
+                "stars": 14
+            },
+            {
                 "id": "defglot",
-                "stars": 21
+                "stars": 23
             },
             {
                 "id": "defmath",
-                "stars": 15
+                "stars": 16
             },
             {
                 "id": "defos",
-                "stars": 75
+                "stars": 90
             },
             {
                 "id": "defquest",
@@ -263,11 +279,11 @@
             },
             {
                 "id": "defsave",
-                "stars": 48
+                "stars": 65
             },
             {
                 "id": "defstring",
-                "stars": 3
+                "stars": 4
             },
             {
                 "id": "defwindow",
@@ -275,7 +291,7 @@
             },
             {
                 "id": "discordrich",
-                "stars": 8
+                "stars": 10
             },
             {
                 "id": "err",
@@ -283,15 +299,15 @@
             },
             {
                 "id": "feat",
-                "stars": 2
+                "stars": 3
             },
             {
                 "id": "log",
-                "stars": 4
+                "stars": 7
             },
             {
                 "id": "pack",
-                "stars": 6
+                "stars": 7
             },
             {
                 "id": "vitahealthenergy",
@@ -299,7 +315,7 @@
             },
             {
                 "id": "xplevelupsystem",
-                "stars": 3
+                "stars": 4
             }
         ],
         "id": "4e5137947a2d2210327998871d8dd3c7",
@@ -308,12 +324,22 @@
     {
         "assets": [
             {
+                "id": "i18n-defold",
+                "stars": 1
+            }
+        ],
+        "id": "b6cf80bbb897b02ad11260ccfb89e0a2",
+        "name": "Chung Xa"
+    },
+    {
+        "assets": [
+            {
                 "id": "defold-api-emmylua",
-                "stars": 34
+                "stars": 36
             },
             {
                 "id": "defold-box2d",
-                "stars": 25
+                "stars": 29
             }
         ],
         "id": "54d0fe81953befa10aaa9d1194a9d2d7",
@@ -323,7 +349,7 @@
         "assets": [
             {
                 "id": "moku",
-                "stars": 28
+                "stars": 31
             }
         ],
         "id": "aecd79718c652bcb46658715d4a7ae55",
@@ -333,7 +359,7 @@
         "assets": [
             {
                 "id": "luascriptinstance",
-                "stars": 7
+                "stars": 9
             }
         ],
         "id": "37439e81e674b7c8578f8d767e8873c4",
@@ -343,7 +369,7 @@
         "assets": [
             {
                 "id": "haxesupport",
-                "stars": 175
+                "stars": 186
             }
         ],
         "id": "89f1bb284adf2936575f2378410be407",
@@ -367,15 +393,15 @@
             },
             {
                 "id": "admob-defold",
-                "stars": 33
+                "stars": 36
             },
             {
                 "id": "camera",
-                "stars": 6
+                "stars": 8
             },
             {
                 "id": "endlessrunner",
-                "stars": 133
+                "stars": 144
             },
             {
                 "id": "facebook",
@@ -391,11 +417,11 @@
             },
             {
                 "id": "gamedistribution",
-                "stars": 9
+                "stars": 10
             },
             {
                 "id": "googleanalyticsforfirebase",
-                "stars": 13
+                "stars": 15
             },
             {
                 "id": "googleplaygameservices",
@@ -403,7 +429,7 @@
             },
             {
                 "id": "googleplayinstant",
-                "stars": 1
+                "stars": 2
             },
             {
                 "id": "iac",
@@ -411,23 +437,27 @@
             },
             {
                 "id": "iap",
-                "stars": 17
+                "stars": 20
             },
             {
                 "id": "ironsource-official",
-                "stars": 8
+                "stars": 10
             },
             {
                 "id": "lua-language-server",
-                "stars": 3
+                "stars": 10
             },
             {
                 "id": "magiclinker",
-                "stars": 133
+                "stars": 144
             },
             {
                 "id": "platformertutorial",
                 "stars": 12
+            },
+            {
+                "id": "poki",
+                "stars": 20
             },
             {
                 "id": "push",
@@ -435,19 +465,19 @@
             },
             {
                 "id": "resource-encryption",
-                "stars": 4
+                "stars": 6
             },
             {
                 "id": "review",
-                "stars": 12
+                "stars": 13
             },
             {
                 "id": "rive",
-                "stars": 25
+                "stars": 31
             },
             {
                 "id": "safearea",
-                "stars": 13
+                "stars": 17
             },
             {
                 "id": "siwa",
@@ -455,7 +485,7 @@
             },
             {
                 "id": "videoplayernative",
-                "stars": 7
+                "stars": 9
             },
             {
                 "id": "webmonetization",
@@ -463,7 +493,7 @@
             },
             {
                 "id": "websocket",
-                "stars": 21
+                "stars": 26
             }
         ],
         "id": "7a2340205545b175e20f44488bd30a49",
@@ -473,7 +503,7 @@
         "assets": [
             {
                 "id": "decodeogg",
-                "stars": 8
+                "stars": 9
             }
         ],
         "id": "ed8d3d9c99bf62c05dc414c77cedb123",
@@ -483,15 +513,15 @@
         "assets": [
             {
                 "id": "cafebazaar",
-                "stars": 4
+                "stars": 5
             },
             {
                 "id": "defarmy",
-                "stars": 30
+                "stars": 32
             },
             {
                 "id": "defgraph",
-                "stars": 27
+                "stars": 29
             }
         ],
         "id": "229b615876d51ca68b90827670796509",
@@ -501,7 +531,7 @@
         "assets": [
             {
                 "id": "wortal",
-                "stars": 0
+                "stars": 1
             }
         ],
         "id": "4ec47174008deea10fb66bbdc2ce1ef1",
@@ -521,7 +551,7 @@
         "assets": [
             {
                 "id": "colyseus",
-                "stars": 54
+                "stars": 57
             }
         ],
         "id": "085a9f543a79fedde455435ad7ed63cd",
@@ -530,18 +560,8 @@
     {
         "assets": [
             {
-                "id": "enhance",
-                "stars": 14
-            }
-        ],
-        "id": "3460489518864f4357d9008c4057e98f",
-        "name": "Enhance"
-    },
-    {
-        "assets": [
-            {
                 "id": "coolmathgames-sdk",
-                "stars": 3
+                "stars": 4
             }
         ],
         "id": "8fd8c1acf56f912e176589db86628f2d",
@@ -555,7 +575,7 @@
             },
             {
                 "id": "cjson",
-                "stars": 20
+                "stars": 21
             },
             {
                 "id": "md5",
@@ -563,7 +583,7 @@
             },
             {
                 "id": "protobuf",
-                "stars": 7
+                "stars": 8
             }
         ],
         "id": "fdfdb623edc4509ead6a92d6a0e8fe70",
@@ -573,7 +593,7 @@
         "assets": [
             {
                 "id": "yoga",
-                "stars": 8
+                "stars": 11
             }
         ],
         "id": "742dbf61e2cf2fe6cefc26e302aa6d6c",
@@ -613,7 +633,7 @@
         "assets": [
             {
                 "id": "matchanovel",
-                "stars": 22
+                "stars": 28
             }
         ],
         "id": "68ed918a501621d514774348f2d99f90",
@@ -627,7 +647,7 @@
             },
             {
                 "id": "rand16",
-                "stars": 1
+                "stars": 2
             }
         ],
         "id": "b450788dc032917ae79b28cd5423ff68",
@@ -637,7 +657,7 @@
         "assets": [
             {
                 "id": "nakama",
-                "stars": 65
+                "stars": 71
             }
         ],
         "id": "ffb80685a055de9b8d1c05bc9cfce024",
@@ -646,12 +666,26 @@
     {
         "assets": [
             {
+                "id": "spritefusion",
+                "stars": 0
+            }
+        ],
+        "id": "1b3840b0b70d91c17e70014c8537dbba",
+        "name": "Hugo"
+    },
+    {
+        "assets": [
+            {
                 "id": "defoldapiforsublimetext3",
                 "stars": 8
             },
             {
+                "id": "lightandshadows",
+                "stars": 46
+            },
+            {
                 "id": "slasherprototype",
-                "stars": 106
+                "stars": 120
             }
         ],
         "id": "8e8dcfd8ab030ee46c9efee57f492a9b",
@@ -661,11 +695,11 @@
         "assets": [
             {
                 "id": "dissolve-fx",
-                "stars": 14
+                "stars": 20
             },
             {
                 "id": "hypertrails",
-                "stars": 48
+                "stars": 61
             },
             {
                 "id": "playable-ads",
@@ -677,11 +711,11 @@
             },
             {
                 "id": "reszip",
-                "stars": 26
+                "stars": 30
             },
             {
                 "id": "scene3d",
-                "stars": 105
+                "stars": 124
             },
             {
                 "id": "sentinel",
@@ -689,23 +723,23 @@
             },
             {
                 "id": "sharpsprite",
-                "stars": 31
-            },
-            {
-                "id": "splitmix64",
-                "stars": 14
-            },
-            {
-                "id": "webgl-memory",
-                "stars": 10
-            },
-            {
-                "id": "yagames",
                 "stars": 42
             },
             {
+                "id": "splitmix64",
+                "stars": 16
+            },
+            {
+                "id": "webgl-memory",
+                "stars": 11
+            },
+            {
+                "id": "yagames",
+                "stars": 54
+            },
+            {
                 "id": "yametrica",
-                "stars": 10
+                "stars": 13
             }
         ],
         "id": "a0bfc7430b840873f242085ed47277c8",
@@ -714,16 +748,36 @@
     {
         "assets": [
             {
+                "id": "crowd-runner-defold",
+                "stars": 11
+            },
+            {
+                "id": "defold-event",
+                "stars": 16
+            },
+            {
+                "id": "defold-log",
+                "stars": 17
+            },
+            {
                 "id": "defold-parser",
-                "stars": 6
+                "stars": 9
+            },
+            {
+                "id": "defold-tweener",
+                "stars": 11
+            },
+            {
+                "id": "deployer",
+                "stars": 32
             },
             {
                 "id": "druid",
-                "stars": 173
+                "stars": 227
             },
             {
                 "id": "panthera",
-                "stars": 47
+                "stars": 62
             }
         ],
         "id": "fdec556e51a2ad846db08b8ba0ae3b86",
@@ -733,23 +787,23 @@
         "assets": [
             {
                 "id": "defbuild",
-                "stars": 3
+                "stars": 4
             },
             {
                 "id": "editor-script-align",
-                "stars": 2
+                "stars": 3
             },
             {
                 "id": "editor-script-components",
-                "stars": 1
+                "stars": 2
             },
             {
                 "id": "editor-script-distribute",
-                "stars": 1
+                "stars": 2
             },
             {
                 "id": "editorscriptatlas",
-                "stars": 8
+                "stars": 9
             }
         ],
         "id": "3b89011fffbcab1dac524ed65dbfa3ec",
@@ -759,7 +813,7 @@
         "assets": [
             {
                 "id": "ts-defold",
-                "stars": 33
+                "stars": 44
             }
         ],
         "id": "09bcec822d82ea12ddffb2c897c92c74",
@@ -769,7 +823,7 @@
         "assets": [
             {
                 "id": "sidescrollertutorialfromscratch",
-                "stars": 11
+                "stars": 12
             }
         ],
         "id": "68009f7dd783cd9d10e1842e618d82e2",
@@ -799,27 +853,31 @@
         "assets": [
             {
                 "id": "defold-colors",
-                "stars": 13
+                "stars": 17
             },
             {
-                "id": "defold-gui",
-                "stars": 14
+                "id": "defold-persist",
+                "stars": 9
+            },
+            {
+                "id": "defold-rendy",
+                "stars": 25
             },
             {
                 "id": "defold-timer",
-                "stars": 10
+                "stars": 12
             },
             {
                 "id": "defold-typewriter",
-                "stars": 20
+                "stars": 22
             },
             {
                 "id": "defoldgridengine",
-                "stars": 30
+                "stars": 35
             },
             {
                 "id": "tilemapanimator",
-                "stars": 23
+                "stars": 25
             }
         ],
         "id": "6d1794798d777425ec3e2e430491f9db",
@@ -829,15 +887,15 @@
         "assets": [
             {
                 "id": "defold-ink",
-                "stars": 4
+                "stars": 11
             },
             {
                 "id": "textadventuretemplate",
-                "stars": 7
+                "stars": 10
             },
             {
                 "id": "visual-novel-template-ink",
-                "stars": 3
+                "stars": 6
             }
         ],
         "id": "18061e0ac86cd3a873b6d2ab7901e044",
@@ -857,11 +915,11 @@
         "assets": [
             {
                 "id": "alienworld",
-                "stars": 133
+                "stars": 144
             },
             {
                 "id": "warbattlesassetpack",
-                "stars": 133
+                "stars": 144
             }
         ],
         "id": "24d76290ca8a440e066f809678097ee8",
@@ -875,7 +933,7 @@
             },
             {
                 "id": "tapticengine",
-                "stars": 9
+                "stars": 10
             },
             {
                 "id": "tenjin",
@@ -893,7 +951,7 @@
             },
             {
                 "id": "fmod",
-                "stars": 23
+                "stars": 24
             },
             {
                 "id": "gog-galaxy",
@@ -921,7 +979,7 @@
             },
             {
                 "id": "voronoi",
-                "stars": 4
+                "stars": 5
             }
         ],
         "id": "ef6d5c21d75557d414343ab7c1bd79da",
@@ -931,7 +989,7 @@
         "assets": [
             {
                 "id": "printer",
-                "stars": 29
+                "stars": 37
             }
         ],
         "id": "1b1571ed4750bae48c69aa21ab265ef2",
@@ -971,7 +1029,7 @@
         "assets": [
             {
                 "id": "fontscale",
-                "stars": 6
+                "stars": 7
             }
         ],
         "id": "d37df7cd894e82ea661f79015ae00bb0",
@@ -990,22 +1048,12 @@
     {
         "assets": [
             {
-                "id": "3dmodels-cc0",
-                "stars": 0
-            }
-        ],
-        "id": "983f95512c9954dd1c36c7cab545b606",
-        "name": "Nisu"
-    },
-    {
-        "assets": [
-            {
                 "id": "defarc",
-                "stars": 21
+                "stars": 29
             },
             {
                 "id": "defluid",
-                "stars": 4
+                "stars": 6
             },
             {
                 "id": "defold-polyglot",
@@ -1013,11 +1061,11 @@
             },
             {
                 "id": "defork",
-                "stars": 20
+                "stars": 23
             },
             {
                 "id": "pigeon",
-                "stars": 23
+                "stars": 40
             }
         ],
         "id": "d54cdc4bc377adc6a3233368cc304107",
@@ -1027,7 +1075,7 @@
         "assets": [
             {
                 "id": "playfabsdk",
-                "stars": 40
+                "stars": 39
             }
         ],
         "id": "c3763cd89322b14d2e915429a74710c1",
@@ -1047,7 +1095,7 @@
         "assets": [
             {
                 "id": "deftable",
-                "stars": 5
+                "stars": 8
             }
         ],
         "id": "c30011ac4245e2089d77c366e0775634",
@@ -1057,7 +1105,7 @@
         "assets": [
             {
                 "id": "whdefrouter",
-                "stars": 25
+                "stars": 26
             }
         ],
         "id": "dcd0deade37ce7d99d938f70fa49dee1",
@@ -1067,31 +1115,31 @@
         "assets": [
             {
                 "id": "illumination",
-                "stars": 23
-            },
-            {
-                "id": "kinematicwalker",
-                "stars": 24
-            },
-            {
-                "id": "lpeg",
-                "stars": 5
-            },
-            {
-                "id": "narrator",
-                "stars": 96
-            },
-            {
-                "id": "operator",
-                "stars": 30
-            },
-            {
-                "id": "trenchbroom",
                 "stars": 29
             },
             {
+                "id": "kinematicwalker",
+                "stars": 30
+            },
+            {
+                "id": "lpeg",
+                "stars": 6
+            },
+            {
+                "id": "narrator",
+                "stars": 114
+            },
+            {
+                "id": "operator",
+                "stars": 37
+            },
+            {
+                "id": "trenchbroom",
+                "stars": 38
+            },
+            {
                 "id": "vs-code-ide",
-                "stars": 126
+                "stars": 152
             }
         ],
         "id": "82dec81b3353206316cb7c95e847450f",
@@ -1101,11 +1149,11 @@
         "assets": [
             {
                 "id": "colorpicker",
-                "stars": 2
+                "stars": 3
             },
             {
                 "id": "defoldpolygoneditor",
-                "stars": 21
+                "stars": 26
             }
         ],
         "id": "63e41bd0ba1158bf35505bf42ff56a4b",
@@ -1114,24 +1162,50 @@
     {
         "assets": [
             {
+                "id": "rustore-appupdate",
+                "stars": 0
+            },
+            {
+                "id": "rustore-billing",
+                "stars": 0
+            },
+            {
+                "id": "rustore-push",
+                "stars": 0
+            },
+            {
+                "id": "rustore-remoteconfig",
+                "stars": 0
+            },
+            {
+                "id": "rustore-review",
+                "stars": 0
+            }
+        ],
+        "id": "4a486afa64c3d214a96ac7b81b50d17e",
+        "name": "RuStore"
+    },
+    {
+        "assets": [
+            {
                 "id": "apathfinding",
-                "stars": 45
+                "stars": 57
             },
             {
                 "id": "daabbcc",
-                "stars": 45
+                "stars": 49
             },
             {
                 "id": "defold-tile-raycast",
-                "stars": 7
+                "stars": 8
             },
             {
                 "id": "modplayer",
-                "stars": 7
+                "stars": 9
             },
             {
                 "id": "pcgrandom",
-                "stars": 22
+                "stars": 23
             },
             {
                 "id": "tinyhttp",
@@ -1145,11 +1219,15 @@
         "assets": [
             {
                 "id": "adjustsdk",
-                "stars": 3
+                "stars": 2
             },
             {
                 "id": "admob",
                 "stars": 18
+            },
+            {
+                "id": "cas-ai",
+                "stars": 1
             },
             {
                 "id": "extensiondirectories",
@@ -1161,11 +1239,19 @@
             },
             {
                 "id": "nativetext",
-                "stars": 8
+                "stars": 11
             },
             {
                 "id": "openal",
-                "stars": 19
+                "stars": 18
+            },
+            {
+                "id": "pcg-random",
+                "stars": 4
+            },
+            {
+                "id": "sfmt",
+                "stars": 3
             }
         ],
         "id": "1c2d3ba1c59d40a609cc44f1ca42b65c",
@@ -1203,7 +1289,7 @@
             },
             {
                 "id": "dirtylarry",
-                "stars": 61
+                "stars": 65
             }
         ],
         "id": "426b550486c4b42b6b3d530c54102e24",
@@ -1223,7 +1309,7 @@
         "assets": [
             {
                 "id": "horrifold",
-                "stars": 32
+                "stars": 35
             }
         ],
         "id": "911ae62ac524a12980cfceb44ad0f30d",
@@ -1233,7 +1319,7 @@
         "assets": [
             {
                 "id": "tiled",
-                "stars": 9993
+                "stars": 10559
             }
         ],
         "id": "e32e02d173ec863e5b26d85532f4cb99",
@@ -1243,11 +1329,21 @@
         "assets": [
             {
                 "id": "blurshader",
-                "stars": 3
+                "stars": 4
             }
         ],
         "id": "9a30c4b73c59839a52d1790f9fa5fa6b",
         "name": "Vincent Lagerros"
+    },
+    {
+        "assets": [
+            {
+                "id": "webrtc",
+                "stars": 3
+            }
+        ],
+        "id": "6bfb050b88dba339e0f954b4969bfe4a",
+        "name": "vitopigno"
     },
     {
         "assets": [
@@ -1273,7 +1369,7 @@
         "assets": [
             {
                 "id": "whquestdef",
-                "stars": 9
+                "stars": 10
             }
         ],
         "id": "c6f2bf4f4f6e5b0ecb9d89fc253742ef",
@@ -1292,8 +1388,18 @@
     {
         "assets": [
             {
+                "id": "defold-oop",
+                "stars": 1
+            }
+        ],
+        "id": "5d6dddec191d19aff834cd5ab30f570c",
+        "name": "xiyoo0812@163.com"
+    },
+    {
+        "assets": [
+            {
                 "id": "colorlib",
-                "stars": 5
+                "stars": 7
             }
         ],
         "id": "9b081cd04d07b9aced2fe1b2d46126d9",

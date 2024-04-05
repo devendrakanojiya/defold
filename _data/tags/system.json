@@ -32,72 +32,92 @@
     },
     {
       "id": "chrono",
-      "stars": 11,
+      "stars": 12,
       "timestamp": 1567163518.0
     },
     {
       "id": "cjson",
-      "stars": 20,
-      "timestamp": 1567163518.0
-    },
-    {
-      "id": "clipboard",
-      "stars": 10,
-      "timestamp": 1567163518.0
-    },
-    {
-      "id": "defbuild",
-      "stars": 3,
-      "timestamp": 1578955020.0
-    },
-    {
-      "id": "defcon",
-      "stars": 41,
-      "timestamp": 1567163518.0
-    },
-    {
-      "id": "defglot",
       "stars": 21,
       "timestamp": 1567163518.0
     },
     {
+      "id": "clipboard",
+      "stars": 11,
+      "timestamp": 1567163518.0
+    },
+    {
+      "id": "defbuild",
+      "stars": 4,
+      "timestamp": 1578955020.0
+    },
+    {
+      "id": "defcon",
+      "stars": 44,
+      "timestamp": 1567163518.0
+    },
+    {
+      "id": "defglot",
+      "stars": 23,
+      "timestamp": 1567163518.0
+    },
+    {
       "id": "defkit",
-      "stars": 14,
+      "stars": 16,
+      "timestamp": 1567163518.0
+    },
+    {
+      "id": "defold-event",
+      "stars": 16,
+      "timestamp": 1567163518.0
+    },
+    {
+      "id": "defold-log",
+      "stars": 17,
       "timestamp": 1567163518.0
     },
     {
       "id": "defold-parser",
-      "stars": 6,
+      "stars": 9,
       "timestamp": 1688946347.0
     },
     {
+      "id": "defold-persist",
+      "stars": 9,
+      "timestamp": 1706227474.0
+    },
+    {
+      "id": "defold-tweener",
+      "stars": 11,
+      "timestamp": 1567163518.0
+    },
+    {
       "id": "defoldandroidpermissions",
-      "stars": 6,
+      "stars": 5,
       "timestamp": 1567163518.0
     },
     {
       "id": "defos",
-      "stars": 75,
+      "stars": 90,
       "timestamp": 1567163518.0
     },
     {
       "id": "defpfd",
-      "stars": 7,
+      "stars": 8,
       "timestamp": 1658219139.0
     },
     {
       "id": "defpro",
-      "stars": 20,
+      "stars": 21,
       "timestamp": 1567163518.0
     },
     {
       "id": "defsave",
-      "stars": 48,
+      "stars": 65,
       "timestamp": 1567163518.0
     },
     {
       "id": "defstring",
-      "stars": 3,
+      "stars": 4,
       "timestamp": 1567163518.0
     },
     {
@@ -112,12 +132,12 @@
     },
     {
       "id": "discordrich",
-      "stars": 8,
+      "stars": 10,
       "timestamp": 1567163518.0
     },
     {
       "id": "druid",
-      "stars": 173,
+      "stars": 227,
       "timestamp": 1590661297.0
     },
     {
@@ -137,7 +157,7 @@
     },
     {
       "id": "fontscale",
-      "stars": 6,
+      "stars": 7,
       "timestamp": 1694077730.0
     },
     {
@@ -152,7 +172,7 @@
     },
     {
       "id": "log",
-      "stars": 4,
+      "stars": 7,
       "timestamp": 1567163518.0
     },
     {
@@ -162,7 +182,7 @@
     },
     {
       "id": "luascriptinstance",
-      "stars": 7,
+      "stars": 9,
       "timestamp": 1567163518.0
     },
     {
@@ -177,17 +197,17 @@
     },
     {
       "id": "nativetext",
-      "stars": 8,
+      "stars": 11,
       "timestamp": 1583224177.0
     },
     {
       "id": "pack",
-      "stars": 6,
+      "stars": 7,
       "timestamp": 1567163518.0
     },
     {
       "id": "pigeon",
-      "stars": 23,
+      "stars": 40,
       "timestamp": 1683062630.0
     },
     {
@@ -197,12 +217,12 @@
     },
     {
       "id": "poki",
-      "stars": 14,
+      "stars": 20,
       "timestamp": 1607991286.0
     },
     {
       "id": "protobuf",
-      "stars": 7,
+      "stars": 8,
       "timestamp": 1567163518.0
     },
     {
@@ -212,27 +232,52 @@
     },
     {
       "id": "review",
-      "stars": 12,
+      "stars": 13,
       "timestamp": 1606150194.0
     },
     {
+      "id": "rustore-appupdate",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-billing",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-push",
+      "stars": 0,
+      "timestamp": 1711731297.0
+    },
+    {
+      "id": "rustore-remoteconfig",
+      "stars": 0,
+      "timestamp": 1710241701.0
+    },
+    {
+      "id": "rustore-review",
+      "stars": 0,
+      "timestamp": 1704801828.0
+    },
+    {
       "id": "safearea",
-      "stars": 13,
+      "stars": 17,
       "timestamp": 1621934200.0
     },
     {
       "id": "share",
-      "stars": 20,
+      "stars": 21,
       "timestamp": 1567163518.0
     },
     {
       "id": "steamworks",
-      "stars": 32,
+      "stars": 35,
       "timestamp": 1567163518.0
     },
     {
       "id": "tapticengine",
-      "stars": 9,
+      "stars": 10,
       "timestamp": 1567163518.0
     },
     {
@@ -242,12 +287,12 @@
     },
     {
       "id": "vibration",
-      "stars": 14,
+      "stars": 13,
       "timestamp": 1567163518.0
     },
     {
       "id": "webgl-memory",
-      "stars": 10,
+      "stars": 11,
       "timestamp": 1694823026.0
     }
   ],

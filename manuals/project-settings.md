@@ -200,10 +200,10 @@ The maximum number of overlapping physics triggers. `16` by default.
 ### Graphics
 
 #### Default Texture Min Filter
-Specifies which filtering to use for minification filtering, `linear` (default) or `nearest`.
+Specifies which filtering to use for minification filtering, `linear` by default.
 
 #### Default Texture Mag Filter
-Specifies which filtering to use for magnification filtering, `linear` (default) or `nearest`.
+Specifies which filtering to use for magnification filtering, `linear` by default.
 
 #### Max Draw Calls
 The max number of render calls, `1024` by default.
@@ -430,6 +430,9 @@ The bundle version, either a number or x.y.z. (see [`CFBundleVersion`](https://d
 #### Info.plist
 If specified, use this info.plist file when bundling your app.
 
+#### Privacy Manifest
+The Apple Privacy Manifest for the application. The field will default to `/builtins/manifests/ios/PrivacyInfo.xcprivacy`.
+
 #### Custom Entitlements
 If specified, the entitlements in the supplied provisioning profile (.entitlements, .xcent, .plist) will be merged with the entitlements from the provisioning profile supplied when bundling the application.
 
@@ -491,6 +494,9 @@ Image file (.png) to use as application icon on macOS.
 
 #### Info.plist
 If set, use the specified info.plist file when bundling.
+
+#### Privacy Manifest
+The Apple Privacy Manifest for the application. The field will default to `/builtins/manifests/osx/PrivacyInfo.xcprivacy`.
 
 #### Bundle Identifier
 The bundle identifier lets macOS recognize updates to your app. Your bundle ID must be registered with Apple and be unique to your app. You cannot use the same identifier for both iOS and macOS apps. Must consist of two or more segments separated by a dot. Each segment must start with a letter. Each segment must only consist of alphanumeric letters, the underscore or hypen (-) character.

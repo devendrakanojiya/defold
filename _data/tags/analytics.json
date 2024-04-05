@@ -2,13 +2,8 @@
   "assets": [
     {
       "id": "adjustsdk",
-      "stars": 3,
+      "stars": 2,
       "timestamp": 1585656869.0
-    },
-    {
-      "id": "enhance",
-      "stars": 14,
-      "timestamp": 1567163518.0
     },
     {
       "id": "gameanalytics",
@@ -22,22 +17,22 @@
     },
     {
       "id": "googleanalytics",
-      "stars": 18,
+      "stars": 20,
       "timestamp": 1567163518.0
     },
     {
       "id": "googleanalyticsforfirebase",
-      "stars": 13,
+      "stars": 15,
       "timestamp": 1567163518.0
     },
     {
       "id": "nakama",
-      "stars": 65,
+      "stars": 71,
       "timestamp": 1590661297.0
     },
     {
       "id": "playfabsdk",
-      "stars": 40,
+      "stars": 39,
       "timestamp": 1567163518.0
     },
     {
@@ -47,12 +42,12 @@
     },
     {
       "id": "wortal",
-      "stars": 0,
+      "stars": 1,
       "timestamp": 1664495798.0
     },
     {
       "id": "yametrica",
-      "stars": 10,
+      "stars": 13,
       "timestamp": 1642638645.0
     }
   ],

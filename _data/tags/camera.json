@@ -1,13 +1,23 @@
 {
   "assets": [
     {
+      "id": "defold-rendy",
+      "stars": 25,
+      "timestamp": 1706227474.0
+    },
+    {
+      "id": "derez",
+      "stars": 4,
+      "timestamp": 1711731297.0
+    },
+    {
       "id": "operator",
-      "stars": 30,
+      "stars": 37,
       "timestamp": 1656236297.0
     },
     {
       "id": "orthographic",
-      "stars": 109,
+      "stars": 133,
       "timestamp": 1567163518.0
     },
     {
@@ -17,7 +27,7 @@
     },
     {
       "id": "scene3d",
-      "stars": 105,
+      "stars": 124,
       "timestamp": 1644886794.0
     }
   ],

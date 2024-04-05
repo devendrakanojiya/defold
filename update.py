@@ -253,6 +253,36 @@ def get_language_specific_dir(language, dir):
         dir = os.path.join(language, dir)
     return dir
 
+def update_file_links_with_lang(filename, pattern, language):
+    # Open the file and read its content
+    with open(filename, 'r') as f:
+        content = f.read()
+    
+    def is_valid_path_and_lang(path, language):
+        # Normalize the path to ensure it doesn't end with a slash
+        normalized_path = path.rstrip('/').lstrip('/')
+        if os.path.exists(os.path.join(language, normalized_path + ".md")) or os.path.exists(os.path.join(language, normalized_path)):
+            return True
+        return False
+
+    
+    # Use regex to find all patterns and update them if valid
+    def replacement(match):
+        path = match.group(0)
+        # Check if the path exists and has the specified language
+        if is_valid_path_and_lang(path, language):
+            return '/{}/{}'.format(language, path.lstrip('/'))
+        else:
+            return path
+    
+    # Compile the pattern and substitute
+    compiled_pattern = re.compile(pattern)
+    updated_content = compiled_pattern.sub(replacement, content)
+    
+    # Optionally, write the updated content back to the file or return it
+    with open(filename, 'w') as f:
+        f.write(updated_content)
+
 
 def process_docs(download = False):
     if download:
@@ -307,7 +337,8 @@ def process_docs(download = False):
                     replace_in_file(filename, r"title\:", r"language: {}\ntitle:".format(language))
                     replace_in_file(filename, r"title\:", r"github: {}\ntitle:".format("https://github.com/defold/doc"))
                     if language != "en":
-                        replace_in_file(filename, r"\/manuals\/", r"/{}/manuals/".format(language))
+                        # replace_in_file(filename, r"\/manuals\/", r"/{}/manuals/".format(language))
+                        update_file_links_with_lang(filename, r'/manuals/[^)#]+', language)
                         replace_in_file(filename, r"\.\.\/images\/", r"/manuals/images/".format(language))
                         replace_in_file(filename, r"\.\.\/assets\/", r"/manuals/assets/".format(language))
 
@@ -321,7 +352,8 @@ def process_docs(download = False):
                     replace_in_file(filename, r"title\:", r"language: {}\ntitle:".format(language))
                     replace_in_file(filename, r"title\:", r"layout: faq\ntitle:")
                     if language != "en":
-                        replace_in_file(filename, r"\/manuals\/", r"/{}/manuals/".format(language))
+                        # replace_in_file(filename, r"\/manuals\/", r"/{}/manuals/".format(language))
+                        update_file_links_with_lang(filename, r'\/manuals\/[^)#]+', language)
                         replace_in_file(filename, r"\.\.\/images\/", r"/manuals/images/".format(language))
                         replace_in_file(filename, r"\.\.\/assets\/", r"/manuals/assets/".format(language))
 
@@ -380,10 +412,42 @@ def parse_extension_parameters(parameters):
             params.append(param)
     return params
 
+def parse_script_api_members(api_name, api):
+    md = Markdown(extensions=['markdown.extensions.fenced_code','markdown.extensions.def_list', 'markdown.extensions.codehilite','markdown.extensions.tables'])
+    elements = []
+    members = api["members"]
+    for m in members:
+        element = {}
+        element["parameters"] = parse_extension_parameters(m.get("parameters", []))
+        element["returnvalues"] = []
+        for r in m.get("returns", []):
+            ret = {}
+            ret["name"] = r.get("type", "")
+            ret["doc"] = r.get("desc", "")
+            element["returnvalues"].append(ret)
+        element["description"] = m.get("desc", "")
+        member_name = m.get("name", "")
+        member_type = m.get("type", "").upper()
+        if member_type == "NUMBER":
+            member_type = "VARIABLE"
+        element["type"] = member_type
+        if member_type == "FUNCTION":
+            element["name"] = api_name + "." + member_name
+        elif member_type == "TABLE":
+            if m.get("members"):
+                print("HAS MEMBERS")
+                elements.extend(parse_script_api_members(api_name + "." + member_name, m))
+        else:
+            element["name"] = m.get("name", "")
+        examples = []
+        for e in m.get("examples", []):
+            desc = e.get("desc", "")
+            examples.append(md.convert(desc))
+        element["examples"] = "".join(examples)
+        elements.append(element)
+    return elements
 
 def process_extension(extension_name, download = False):
-    md = Markdown(extensions=['markdown.extensions.fenced_code','markdown.extensions.def_list', 'markdown.extensions.codehilite','markdown.extensions.tables'])
-
     extension_zip = extension_name + ".zip"
     github_url = "https://github.com/defold/{}".format(extension_name)
     if download:
@@ -416,7 +480,6 @@ def process_extension(extension_name, download = False):
         docs_dir = os.path.join(unzipped_extension_dir, "docs")
         rmcopytree(docs_dir, extension_dir)
         index = os.path.join(extension_dir, "index.md")
-        append_to_file(index, "[API Reference](/{}/{}_api)".format(extension_name, extension_name.replace("extension-", "")))
         replace_in_file(index, r"title\:", r"layout: manual\ntitle:")
         replace_in_file(index, r"title\:", r"language: en\ntitle:")
         replace_in_file(index, r"title\:", r"github: {}\ntitle:".format(github_url))
@@ -435,6 +498,9 @@ def process_extension(extension_name, download = False):
             api = yaml.safe_load(read_as_string(filename))[0]
             api_name = api.get("name", "")
 
+            # append links to api reference to the end of the file
+            append_to_file(index, "[API Reference - {}](/{}/{}_api)\n".format(api_name, extension_dir, api_name))
+
             # generate a dummy markdown page with some front matter for the api doc
             api_filename = os.path.join(extension_dir, api_name + "_api.html")
             with open(api_filename, "w") as f:
@@ -451,30 +517,7 @@ def process_extension(extension_name, download = False):
             info["brief"] = api_name
             info["api"] = os.path.join(extension_dir, api_name + "_api")
 
-            for m in api["members"]:
-                element = {}
-                element["parameters"] = parse_extension_parameters(m.get("parameters", []))
-                element["returnvalues"] = []
-                for r in m.get("returns", []):
-                    ret = {}
-                    ret["name"] = r.get("type", "")
-                    ret["doc"] = r.get("desc", "")
-                    element["returnvalues"].append(ret)
-                element["description"] = m.get("desc", "")
-                type = m.get("type", "").upper()
-                if type == "NUMBER":
-                    type = "VARIABLE"
-                element["type"] = type
-                if type == "FUNCTION":
-                    element["name"] = api_name + "." + m.get("name", "")
-                else:
-                    element["name"] = m.get("name", "")
-                examples = []
-                for e in m.get("examples", []):
-                    desc = e.get("desc", "")
-                    examples.append(md.convert(desc))
-                element["examples"] = "".join(examples)
-                elements.append(element)
+            elements.extend(parse_script_api_members(api_name, api))
 
             # write the json data file
             extension_data_dir = os.path.join("_data", "extensions")
@@ -559,14 +602,11 @@ def process_examples(download = False):
         print("...copying scripts")
         includes_dir = "_includes/examples"
         rmmkdir(includes_dir)
-        for filename in find_files(unzipped_examples_dir, "*.script"):
-            script_file = os.path.join(includes_dir, filename.replace(unzipped_examples_dir, "")[1:]).replace(".script", "_script.md")
-            makedirs(os.path.dirname(script_file))
-            shutil.copyfile(filename, script_file)
-        for filename in find_files(unzipped_examples_dir, "*.gui_script"):
-            script_file = os.path.join(includes_dir, filename.replace(unzipped_examples_dir, "")[1:]).replace(".gui_script", "_gui_script.md")
-            makedirs(os.path.dirname(script_file))
-            shutil.copyfile(filename, script_file)
+        for ext in ["script", "gui_script", "vp", "fp"]:
+            for source in find_files(unzipped_examples_dir, "*." + ext):
+                target = os.path.join(includes_dir, source.replace(unzipped_examples_dir, "")[1:]).replace("." + ext, "_" + ext + ".md")
+                makedirs(os.path.dirname(target))
+                shutil.copyfile(source, target)
 
         print("...generating index")
         index_file = os.path.join("_data", "examplesindex.json")
@@ -895,21 +935,21 @@ def process_refdoc(download = False):
                         json_out_name = file.replace("_doc.json", "")
                         json_out_file = json_out_name + ".json"
 
-                        # copy and rename file
-                        shutil.copyfile(os.path.join(tmp_dir, "doc", file), os.path.join(REF_DATA_DIR, json_out_file))
+                        api["elements"].sort(key=lambda x: x.get("name").lower())
+                        write_as_json(os.path.join(REF_DATA_DIR, json_out_file), api)
 
                         namespace = api["info"]["namespace"]
-                        type = "defold"
+                        api_type = "defold"
                         if namespace in LUA_APIS:
-                            type = "lua"
+                            api_type = "lua"
                         elif namespace.startswith("dm") or namespace == "sharedlibrary":
-                            type = "c"
+                            api_type = "c"
 
-                        print("REFDOC " + json_out_name + " type: " + type)
+                        print("REFDOC " + json_out_name + " type: " + api_type)
 
                         # generate a dummy markdown page with some front matter for each ref doc
                         with open(os.path.join(REF_PAGE_DIR, file.replace("_doc.json", ".md")), "w") as f:
-                            f.write(REFDOC_MD_FRONTMATTER.format(branch, json_out_name, type, json_out_name) + REFDOC_MD_BODY)
+                            f.write(REFDOC_MD_FRONTMATTER.format(branch, json_out_name, api_type, json_out_name) + REFDOC_MD_BODY)
 
                         # build refdoc index
                         refindex.append({
@@ -918,7 +958,7 @@ def process_refdoc(download = False):
                             "filename": json_out_name,
                             "url": "/ref/" + branch + "/" + json_out_name,
                             "branch": branch,
-                            "type": type
+                            "type": api_type
                         })
 
         # add extensions

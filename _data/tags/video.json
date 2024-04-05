@@ -1,13 +1,8 @@
 {
   "assets": [
     {
-      "id": "enhance",
-      "stars": 14,
-      "timestamp": 1567163518.0
-    },
-    {
       "id": "videoplayernative",
-      "stars": 7,
+      "stars": 9,
       "timestamp": 1567163518.0
     }
   ],

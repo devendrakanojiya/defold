@@ -2,7 +2,7 @@
   "assets": [
     {
       "id": "defold-api-emmylua",
-      "stars": 34,
+      "stars": 36,
       "timestamp": 1567163518.0
     },
     {
@@ -12,17 +12,22 @@
     },
     {
       "id": "panthera",
-      "stars": 47,
+      "stars": 62,
       "timestamp": 1669586732.0
     },
     {
+      "id": "spritefusion",
+      "stars": 0,
+      "timestamp": 1709811792.0
+    },
+    {
       "id": "trenchbroom",
-      "stars": 29,
+      "stars": 38,
       "timestamp": 1658219139.0
     },
     {
       "id": "vs-code-ide",
-      "stars": 126,
+      "stars": 152,
       "timestamp": 1632134871.0
     }
   ],
